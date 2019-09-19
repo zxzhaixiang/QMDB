@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'reactstrap';
+import Test from './components/Test'
+import Search from './components/Search'
 
 class App extends Component{
   constructor(props) {
@@ -30,6 +32,14 @@ class App extends Component{
         </header>
         <div>
           <Button outline color="primary" onClick={this.callAPI}>Update date</Button>
+        <div>
+      <Search
+        suggestions={[
+          "Matrix",
+          "Horrible"
+        ]}
+      />
+    </div>
         </div>
         <p className="App-intro">{this.state.date}</p>
       </div>
