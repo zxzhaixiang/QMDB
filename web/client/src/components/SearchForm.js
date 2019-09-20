@@ -7,39 +7,37 @@ import {
   Input,
   Row,
   Col,
-  Container
 } from "reactstrap";
-import ReactBootstrapSlider from 'react-bootstrap-slider'
 
 export default class SearchForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      checkedBoxes: [],
-      genres: ["dumb", "cool", "boring", "awful"],
-      countries: ["murica", "china", "straya", "newZealand"],
-      languages: ["howdytalk", "mandorin", "apple", "spanish"],
       genreSel: [],
       countrySel: [],
       languageSel: [],
-      currentSliderValue: 1,
-      step: 1,
-      max: 5,
-      min: 0,
+      minYear: 1500,
+      maxYear: 2050,
+      email: "",
+      keywords: "",
     };
   }
 
-  static defaultProps = {
-    checked: false
-  };
 
-  state = {
-    checked: this.props.checked
-  };
+  maxYearChangeHandler = event =>{
+    this.setState({maxYear: event.target.value})
+  }
 
-  changeSliderValue = (event) => {
-    this.setState({currentSliderValue: event.target.value})
-    console.log(this.state.currentSliderValue)
+  minYearChangeHandler = event =>{
+    this.setState({minYear: event.target.value})
+  }
+
+  keywordsChangeHandler = event =>{
+    this.setState({keywords: event.target.value})
+  }
+
+  emailChangeHandler = event =>{
+    this.setState({email: event.target.value})
   }
 
   genreChangeHandler = event => {
@@ -83,159 +81,140 @@ export default class SearchForm extends Component {
     console.log("Selected Genres:", languageSel);
   };
 
+  submitForm = ()=>{
+    const payload = this.state
+    this.props.submitFormAPI(payload)
+  }
+
   render() {
     return (
-      <Form>
-        <FormGroup>
-          <Row>
-            <Col sm="auto" className="align-self-center">
-              <Label for="emaillabel">Email:</Label>
-            </Col>
-            <Col>
-              <Input
-                type="email"
-                className="form-control"
-                name="email"
-                id="email"
-                placeholder="placeholder@gmail.com"
-              />
-            </Col>
-          </Row>
+      <div>
+        <Form>
 
-          <Row>
-            <Col sm="auto" className="align-self-center">
-              <Label for="searchbox">Keywords:</Label>
-            </Col>
-            <Col>
-              <Input
-                type="text"
-                className="form-control"
-                name="search"
-                id="search"
-                placeholder="Search keywords"
-              />
-            </Col>
-          </Row>
-        </FormGroup>
+          <FormGroup>
+            <Row>
+              <Col sm="auto" className="align-self-center">
+                <Label for="emaillabel">Email:</Label>
+              </Col>
+              <Col>
+                <Input
+                  type="email"
+                  className="form-control"
+                  onChange={this.emailChangeHandler}
+                  name="email"
+                  id="email"
+                  placeholder="placeholder@gmail.com"
+                />
+              </Col>
+            </Row>
 
-        <FormGroup check>
-          <Row>
-            <Col className="align-self-center">
-              <Label check for="genres">Genres:</Label>
-              <br></br>
-              <Input
-                type="checkbox"
-                name="genre1"
-                onChange={this.genreChangeHandler.bind(this)}
-                value={this.state.genres[0]}
-              />{' '} Genre 1
-              <br></br>
-              <Input
-                type="checkbox"
-                name="genre2"
-                onChange={this.genreChangeHandler.bind(this)}
-                value={this.state.genres[1]}
-              />{' '} Genre 2
-              <br></br>
-              <Input
-                type="checkbox"
-                name="genre3"
-                onChange={this.genreChangeHandler.bind(this)}
-                value={this.state.genres[2]}
-              />{' '} Genre 3
-              <br></br>
-              <Input
-                type="checkbox"
-                name="genre4"
-                onChange={this.genreChangeHandler.bind(this)}
-                value={this.state.genres[3]}
-              />{' '} Genre 4
-              <br></br>
-            </Col>
+            <Row>
+              <Col sm="auto" className="align-self-center">
+                <Label for="searchbox">Keywords:</Label>
+              </Col>
+              <Col>
+                <Input
+                  type="text"
+                  className="form-control"
+                  onChange={this.keywordsChangeHandler}
+                  name="search"
+                  id="search"
+                  placeholder="Search keywords"
+                />
+              </Col>
+            </Row>
+          </FormGroup>
 
-            <Col className="align-self-center">
-              <Label for="countries">Countries:</Label>
-              <br></br>
-              <Input
-                type="checkbox"
-                name="country1"
-                onChange={this.countryChangeHandler.bind(this)}
-                value={this.state.countries[0]}
-              />{' '} Country 1
-              <br></br>
-              <Input
-                type="checkbox"
-                name="country2"
-                onChange={this.countryChangeHandler.bind(this)}
-                value={this.state.countries[1]}
-              />{' '} Country 2
-              <br></br>
-              <Input
-                type="checkbox"
-                name="country3"
-                onChange={this.countryChangeHandler.bind(this)}
-                value={this.state.countries[2]}
-              />{' '} Country 3
-              <br></br>
-              <Input
-                type="checkbox"
-                name="country4"
-                onChange={this.countryChangeHandler.bind(this)}
-                value={this.state.countries[3]}
-              />{' '} Country 4
-              <br></br>
-            </Col>
+          <FormGroup>
+            <Row>
+              <Col sm="auto" className="align-self-center">
+                <Label for="minYear">Year From:</Label>
+              </Col>
+              <Col>
+                <Input
+                  type="number"
+                  className="form-control"
+                  name="minYear"
+                  id="minYear"
+                  placeholder="1954"
+                  onChange={this.minYearChangeHandler}
+                />
+              </Col>
+            </Row>
 
-            <Col className="align-self-center">
-              <Label for="languages">Languages:</Label>
-              <br></br>
-              <Input
-                type="checkbox"
-                name="language1"
-                onChange={this.languageChangeHandler.bind(this)}
-                value={this.state.languages[0]}
-              />{' '} Language 1
-              <br></br>
-              <Input
-                type="checkbox"
-                name="language2"
-                onChange={this.languageChangeHandler.bind(this)}
-                value={this.state.languages[1]}
-              />{' '} Language 2
-              <br></br>
-              <Input
-                type="checkbox"
-                name="language3"
-                onChange={this.languageChangeHandler.bind(this)}
-                value={this.state.languages[2]}
-              />{' '} Language 3
-              <br></br>
-              <Input
-                type="checkbox"
-                name="language4"
-                onChange={this.languageChangeHandler.bind(this)}
-                value={this.state.languages[3]}
-              />{' '} Language 4
-              <br></br>
-            </Col>
-          </Row>
-        </FormGroup>
+            <Row>
+              <Col sm="auto" className="align-self-center">
+                <Label for="minYear">Year To:</Label>
+              </Col>
+              <Col>
+                <Input
+                  type="number"
+                  className="form-control"
+                  name="maxYear"
+                  id="maxYear"
+                  placeholder="2020"
+                  onChange={this.maxYearChangeHandler}
+                />
+              </Col>
+            </Row>
+          </FormGroup>
 
-        <FormGroup>
-          <Row>
-            <Col className="align-self-center">
-              <ReactBootstrapSlider
-              value={this.state.currentSliderValue}
-              slideStop={this.changeSliderValue}
-              step={this.state.step}
-              max={this.state.max}
-              min={this.state.min}
-              />
-            </Col>
-          </Row>
-        </FormGroup>
-        <Button color="primary">Search</Button>
-      </Form>
+          <FormGroup check>
+            <Row>
+              <Col className="align-content-left">
+                <Label check for="genres">Genres:</Label>
+                <br></br>
+                {this.props.genres.map(genre =>
+                  <div>
+                    <Input
+                    type="checkbox"
+                    name={genre}
+                    onChange={this.genreChangeHandler.bind(this)}
+                    value={genre}
+                  />  {"" + genre}
+                  </div>
+                  )
+                }
+              </Col>
+
+              <Col className="align-content-left">
+                <Label check for="countries">Countries:</Label>
+                <br></br>
+                {this.props.countries.map(country =>
+                  <div>
+                    <Input
+                    type="checkbox"
+                    name={country}
+                    onChange={this.countryChangeHandler.bind(this)}
+                    value={country}
+                  />  {"" + country}
+                  </div>
+                  )
+                }
+              </Col>
+
+              <Col className="align-content-left">
+                <Label check for="languages">Languages:</Label>
+                <br></br>
+                {this.props.languages.map(language =>
+                  <div>
+                    <Input
+                    type="checkbox"
+                    name={language}
+                    onChange={this.languageChangeHandler.bind(this)}
+                    value={language}
+                  />  {"" + language}
+                  </div>
+                  )
+                }
+              </Col>
+            </Row>
+          </FormGroup>
+
+          <Button color="primary" onClick={this.submitForm}>Search</Button>
+        </Form>
+      </div>
+
     );
   }
 }

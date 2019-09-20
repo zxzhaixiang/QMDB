@@ -6,6 +6,7 @@ import { Button, Row, Col, Card, CardDeck, Container, CardBody, CardHeader } fro
 import Header from './components/Header'
 import SearchForm from './components/SearchForm'
 import MovieCard from './components/MovieCard'
+import ReactBootstrapSlider from 'react-bootstrap-slider'
 
 class App extends Component {
   constructor(props) {
@@ -18,6 +19,10 @@ class App extends Component {
     }  
   }
 
+  submitFormAPI = (payload) => {
+    console.log(payload)
+  }
+
   callAPI = () => {
     fetch("http://localhost:9000/testAPI")
       .then(res => res.text())
@@ -26,6 +31,15 @@ class App extends Component {
   }
 
   componentWillMount() {
+
+    const genres = ["asdfasdf", "cool", "boring", "awful"]
+    const countries = ["murica", "china", "straya", "newZealand"]
+    const languages =  ["howdytalk", "mandorin", "apple", "spanish"]
+
+    this.setState({genres: genres,
+      countries: countries,
+      languages: languages});
+
     const movies = Array(20).fill({
       picUrl: "https://aws.test",
       ttl: "Movie title",
@@ -57,7 +71,11 @@ class App extends Component {
           <Card>
             <CardHeader><h2>Search Criterion</h2></CardHeader>
             <CardBody>
-              <SearchForm />
+              <SearchForm 
+                genres={this.state.genres} 
+                countries={this.state.countries} 
+                languages={this.state.languages}
+                submitFormAPI={this.submitFormAPI}/>
             </CardBody>
           </Card>
         </Container>
@@ -74,6 +92,7 @@ class App extends Component {
                       subttl={movie.subttl}
                       description={movie.description}
                       link={movie.link}
+                      isfavorite={movie.isfavorite}
                     />
                 )}
               </CardDeck>
@@ -93,6 +112,7 @@ class App extends Component {
                       subttl={movie.subttl}
                       description={movie.description}
                       link={movie.link}
+                      isfavorite={movie.isfavorite}
                     />
                 )}
               </CardDeck>
