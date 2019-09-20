@@ -7,24 +7,24 @@ class YearSlider extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      currentValue: 1,
+      currentSliderValue: 1,
       step: 1,
       max: 5,
       min: 0,
     }
   }
 
-  changeValue = (event) => {
-    this.setState({currentValue: event.target.value})
-    console.log(this.state.currentValue)
+  changeSliderValue = (event) => {
+    this.setState({currentSliderValue: event.target.value})
+    console.log(this.state.currentSliderValue)
   }
 
   render() {
     return (
       <div> 
         <ReactBootstrapSlider
-        value={this.state.currentValue}
-        slideStop={this.changeValue}
+        value={this.state.currentSliderValue}
+        slideStop={this.changeSliderValue}
         step={this.state.step}
         max={this.state.max}
         min={this.state.min}
