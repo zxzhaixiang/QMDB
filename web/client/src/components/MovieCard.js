@@ -4,14 +4,34 @@ import {
     CardTitle, CardSubtitle, Button,CardHeader,
 } from 'reactstrap';
 
+
 export default class MovieCard extends Component {
     constructor(props){
         super(props)
-        this.state = {
-            isfavorite: false,
-            colorStyle: "primary",
-            text: "Add to Favorite",
+        this.state = {}
+    }
+
+    changeState = (isfavorite) => {
+        if (isfavorite){
+            this.setState({isfavorite: true,
+            colorStyle: "success",
+            text:'remove from favorite'})
         }
+        else {
+            this.setState({isfavorite: false,
+                colorStyle: "primary",
+                text: "Add to Favorite"})
+        }
+    }
+
+    onClickHander = () => {
+        const isfavorite = !this.state.isfavorite
+        this.changeState(isfavorite)
+        // do post request to update the database
+    }
+
+    componentWillMount() {
+        this.changeState(this.props.isfavorite)
     }
 
     render() {
@@ -28,7 +48,7 @@ export default class MovieCard extends Component {
                     <CardBody>
                         <CardSubtitle>{subttl}</CardSubtitle>
                         <CardText>{description}</CardText>
-                        <Button color={this.state.colorStyle}>{this.state.text}</Button>
+                        <Button color={this.state.colorStyle} onClick={this.onClickHander}>{this.state.text}</Button>
                     </CardBody>
                 </Card>
             </div>

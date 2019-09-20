@@ -20,6 +20,15 @@ class App extends Component {
   }
 
   submitFormAPI = (payload) => {
+    // call lambda with payload
+    // weekday/weekend, hour in UTC localtime - 6 hour
+    // the output from calling lambda would be a list of movies 
+
+    // this.setState({
+    //   movies: [],
+    //   searchResultClass: "d-block",
+    // })
+
     console.log(payload)
   }
 
