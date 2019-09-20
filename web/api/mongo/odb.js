@@ -28,13 +28,24 @@ const find = (collection, query, project = {}, sort = {}) => {
   const cursor = db.collection(collection).find(query, { projection: project, sort })
   return cursor.toArray()
 }
+
 const deleteOne = (collection, filter) => {
   const db = getDb()
   return db.collection(collection).deleteOne(filter)
 }
 
+const distinct = (field, query, options = {}) => {
+  const db = getDb()
+  return db.collection(collection).distinct(field, query, options)
+}
+
 module.exports = {
   findOne: findOne,
-
+  findOneUpdate: findOneUpdate,
+  insertOne: insertOne,
+  updateOne: updateOne,
+  find: find,
+  deleteOne: deleteOne,
+  distinct: distinct,
 
 }

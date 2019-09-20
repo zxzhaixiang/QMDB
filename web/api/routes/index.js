@@ -30,6 +30,18 @@ router.post("/get_recommendation", async (req, res) => {
   return res.send(JSON.stringify(payload))
 })
 
+router.post("/get_meta/", async (req, res) => {
+  console.log('REQ', req.body)
+  const payload  = req.body 
+  const genreData = await odb.distinct('movies', 'genre')
+  console.log('GENRES:', genreData)
+  const countryData = await odb.distinct('movies', 'country')
+  console.log('COUNTRIES:', countryData)
+  const languageData = await odb.distinct('movies', 'language')
+  console.log('LANGUAGE:', languageData)
+  return res.send(JSON.stringify({ genreData:genreData, countryData: countryData, languageData: languageData }))
+})
+
 router.post("/add_to_favorite", async (req, res) => {
   //user, movie title INPUT
   //update to mongo db
