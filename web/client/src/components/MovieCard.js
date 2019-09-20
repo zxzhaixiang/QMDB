@@ -24,10 +24,14 @@ export default class MovieCard extends Component {
         }
     }
 
-    onClickHander = () => {
+    favoriteButtonClickHandler = () => {
         const isfavorite = !this.state.isfavorite
         this.changeState(isfavorite)
-        // do post request to update the database
+        this.props.changeFavoriteHandler(isfavorite, this.props.movie_id)
+    }
+
+    getSimilarMoviesHandler = () => {
+        this.props.getSimilarMovieHandler(this.props.movie_id)
     }
 
     componentWillMount() {
@@ -43,12 +47,12 @@ export default class MovieCard extends Component {
         return (
             <div>
                 <Card>
-                    <CardHeader><a href={link}>{ttl}</a></CardHeader>
+                    <CardHeader onClick={this.getSimilarMoviesHandler}><a href={link}>{ttl}</a></CardHeader>
                     <CardImg top width="100%" src={picUrl} alt={picUrl} />
                     <CardBody>
                         <CardSubtitle>{subttl}</CardSubtitle>
                         <CardText>{description}</CardText>
-                        <Button color={this.state.colorStyle} onClick={this.onClickHander}>{this.state.text}</Button>
+                        <Button color={this.state.colorStyle} onClick={this.favoriteButtonClickHandler}>{this.state.text}</Button>
                     </CardBody>
                 </Card>
             </div>
