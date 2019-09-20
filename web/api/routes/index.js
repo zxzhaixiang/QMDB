@@ -25,4 +25,14 @@ router.post("/get_recommendation", async (req, res) => {
   return res.send(JSON.stringify(payload))
 })
 
+router.post("/add_to_favorite", async (req, res) => {
+  //user, movie title INPUT
+  //update to mongo db
+  //call lambda to update model
+
+})
+//user, movie title
+
+
+//get meta info
 module.exports = router;
