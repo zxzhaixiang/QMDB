@@ -1,4 +1,4 @@
-import { MongoClient } from 'mongodb'
+const {MongoClient} = require('mongodb')
 
 const {
   DATABASE_NAME,
@@ -9,11 +9,12 @@ const {
   MONGO_SHARD_1,
   MONGO_SHARD_2,
 } = process.env
+console.log(DATABASE_NAME)
 
 const generateMongoConnectionString = ({ replicaSet, cluster, database, authenticationDatabase = 'admin', username, password }) => `mongodb://${username}:${password}@${cluster.join(',')}/${database}?ssl=true&replicaSet=${replicaSet}&authSource=${authenticationDatabase}`
 
 // GENERATE CONNECTION STRING
-export const mongoConnectionStr = generateMongoConnectionString({
+const mongoConnectionStr = generateMongoConnectionString({
   replicaSet: MONGO_REPLICA_SET,
   cluster: [
     MONGO_SHARD_0,
@@ -30,17 +31,17 @@ const state = {
   mode: null,
 }
 
-export const setState = (db, mode) => {
+const setState = (db, mode) => {
   state.db = db
   state.mode = mode
 }
 
 const TEST_URI = `mongodb://localhost/${DATABASE_NAME}`
 const PRODUCTION_URI = mongoConnectionStr
-export const MODE_TEST = 'mode_test'
-export const MODE_PRODUCTION = 'mode_production'
+const MODE_TEST = 'mode_test'
+const MODE_PRODUCTION = 'mode_production'
 
-export const connectToMongoPromise = mode => new Promise((resolve, reject) => {
+const connectToMongoPromise = mode => new Promise((resolve, reject) => {
   const uri = mode === MODE_TEST ? TEST_URI : PRODUCTION_URI
   console.log('connecting to mongo')
   MongoClient.connect(uri, { useNewUrlParser: true }, (err, client) => {
@@ -52,4 +53,9 @@ export const connectToMongoPromise = mode => new Promise((resolve, reject) => {
   })
 })
 
-export const getDb = () => state.db
+const getDb = () => state.db
+
+module.exports = {
+  getDb: getDb,
+
+}

@@ -5,11 +5,13 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require("cors");
 var dotenv = require("dotenv")
+dotenv.config({ silent: true })
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testAPIRouter = require("./routes/testAPI");
 
-dotenv.config({ silent: true })
+
 var app = express();
 
 // view engine setup

@@ -1,5 +1,7 @@
-import { invokeLambda } from '../aws/lambda';
-import { updateOne, findOne, insertOne } from '../mongo/odb'
+//import { invokeLambda } from '../aws/lambda';
+const {ObjectId} = require('mongodb')
+const odb = require('../mongo/odb')
+
 var express = require('express');
 var router = express.Router();
 
@@ -21,8 +23,11 @@ router.get("/image/:imageId", function(req, res, next) {
 router.post("/get_recommendation", async (req, res) => {
   console.log('REQ', req.body)
   const payload  = req.body 
-  console.log('Payload:', JSON.stringify(payload))
-  return res.send(JSON.stringify(payload))
+  const filter = { _id: ObjectId("5d852db841fbe6ff6efe46d1") }
+  const project = { _id: 0, title: 1}
+  const data = await odb.findOne('movies', filter, project)
+  console.log('DATA', data)
+  return res.send(JSON.stringify(data))
 })
 
 router.post("/add_to_favorite", async (req, res) => {
