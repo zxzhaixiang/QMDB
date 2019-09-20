@@ -30,10 +30,8 @@ router.post("/get_recommendation", async (req, res) => {
   return res.send(JSON.stringify(payload))
 })
 
-router.post("/get_meta/", async (req, res) => {
-  console.log('REQ', req.body)
-  const payload  = req.body 
-  const genreData = await odb.distinct('movies', 'genre')
+router.get("/get_meta", async (req, res) => {
+  const genreData = await odb.distinct('movies', 'genres')
   console.log('GENRES:', genreData)
   const countryData = await odb.distinct('movies', 'country')
   console.log('COUNTRIES:', countryData)
