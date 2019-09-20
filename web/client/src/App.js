@@ -4,6 +4,10 @@ import './App.css';
 import { Button } from 'reactstrap';
 import Test from './components/Test'
 import Search from './components/Search'
+import YearSlider from './components/YearSlider'
+import Filters from './components/Filters'
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-slider/dist/css/bootstrap-slider.css"
 
 class App extends Component{
   constructor(props) {
@@ -26,10 +30,10 @@ class App extends Component{
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo"/>
-          <h1 className="App-title"> Welcome to React</h1>
-        </header>
+        <br></br>
+        <Filters/>
+        <br></br>
+        <YearSlider/>
         <div>
           <Button outline color="primary" onClick={this.callAPI}>Update date</Button>
         <div>

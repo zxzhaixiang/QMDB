@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
     "react": "^16.9.0",
     "react-autocomplete": "^1.8.1",
     "react-bootstrap-slider": "^2.2.2",
