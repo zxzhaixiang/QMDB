@@ -6,7 +6,6 @@ row_number,movie_id,director_name
 4,49529,Andrew Stanton
 5,559,Sam Raimi
 6,38757,Byron Howard
-6,38757,Nathan Greno
 7,99861,Joss Whedon
 8,767,David Yates
 9,209112,Zack Snyder
@@ -27,7 +26,6 @@ row_number,movie_id,director_name
 24,254,Peter Jackson
 25,597,James Cameron
 26,271110,Anthony Russo
-26,271110,Joe Russo
 27,44833,Peter Berg
 28,135397,Colin Trevorrow
 29,37724,Sam Mendes
@@ -42,7 +40,6 @@ row_number,movie_id,director_name
 38,102382,Marc Webb
 39,20526,Joseph Kosinski
 40,49013,John Lasseter
-40,49013,Brad Lewis
 41,44912,Martin Campbell
 42,10193,Lee Unkrich
 43,534,McG
@@ -58,22 +55,18 @@ row_number,movie_id,director_name
 53,217,Steven Spielberg
 54,105864,Peter Sohn
 55,62177,Brenda Chapman
-55,62177,Mark Andrews
-55,62177,Steve Purcell
 56,188927,Justin Lin
 57,10681,Andrew Stanton
 58,5174,Brett Ratner
 59,14161,Roland Emmerich
 60,17979,Robert Zemeckis
 61,76757,Lilly Wachowski
-61,76757,Lana Wachowski
 62,258489,David Yates
 63,411,Andrew Adamson
 64,246655,Bryan Singer
 65,155,Christopher Nolan
 66,14160,Pete Docter
 67,15512,Conrad Vernon
-67,15512,Rob Letterman
 68,1726,Jon Favreau
 69,44826,Martin Scorsese
 70,8487,Barry Sonnenfeld
@@ -89,25 +82,21 @@ row_number,movie_id,director_name
 80,58595,Rupert Sanders
 81,102651,Robert Stromberg
 82,119450,Matt Reeves
-83,79698,Roland Joff??
+83,79698,Roland Joffé
 84,64686,Carl Rinsch
 85,100402,Anthony Russo
-85,100402,Joe Russo
 86,10192,Mike Mitchell
 87,158852,Brad Bird
 88,177572,Chris Williams
-88,177572,Don Hall
 89,82690,Rich Moore
 90,5255,Robert Zemeckis
 91,47933,Roland Emmerich
 92,10191,Chris Sanders
-92,10191,Dean DeBlois
 93,296,Jonathan Mostow
 94,118340,James Gunn
 95,157336,Christopher Nolan
 96,27205,Christopher Nolan
 97,315011,Hideaki Anno
-97,315011,Shinji Higuchi
 98,49051,Peter Jackson
 99,9799,Rob Cohen
 100,4922,David Fincher
@@ -117,7 +106,6 @@ row_number,movie_id,director_name
 104,503,Wolfgang Petersen
 105,241259,James Bobin
 106,810,Chris Miller
-106,810,Raman Hui
 107,68735,Duncan Jones
 108,87101,Alan Taylor
 109,10140,Michael Apted
@@ -130,51 +118,40 @@ row_number,movie_id,director_name
 116,6479,Francis Lawrence
 117,118,Tim Burton
 118,2062,Jan Pinkava
-118,2062,Brad Bird
 119,272,Christopher Nolan
 120,10527,Eric Darnell
-120,10527,Tom McGrath
 121,18360,Shawn Levy
 122,2080,Gavin Hood
 123,605,Lilly Wachowski
-123,605,Lana Wachowski
 124,109445,Chris Buck
-124,109445,Jennifer Lee
 125,604,Lilly Wachowski
-125,604,Lana Wachowski
 126,76338,Alan Taylor
 127,76341,George Miller
 128,13448,Ron Howard
 129,10195,Kenneth Branagh
 130,13053,Chris Williams
-130,13053,Byron Howard
 131,19585,Hoyt Yeatman
 132,57165,Jonathan Liebesman
 133,62213,Tim Burton
 134,177677,Christopher McQuarrie
 135,7978,Joe Johnston
 136,5559,Steve Hickner
-136,5559,Simon J. Smith
 137,49444,Jennifer Yuh Nelson
 138,10196,M. Night Shyamalan
 139,956,J.J. Abrams
 140,117251,Roland Emmerich
 141,50321,Simon Wells
 142,11619,David Bowers
-142,11619,Sam Fell
 143,266647,Joe Wright
 144,82703,Rob Minkoff
 145,652,Wolfgang Petersen
 146,80321,Conrad Vernon
-146,80321,Eric Darnell
-146,80321,Tom McGrath
 147,36669,Lee Tamahori
 148,43074,Paul Feig
 149,95,Michael Bay
 150,608,Barry Sonnenfeld
 151,2310,Robert Zemeckis
 152,140300,Jennifer Yuh Nelson
-152,140300,Alessandro Carloni
 153,56292,Brad Bird
 154,81188,Peter Ramsey
 155,7552,Dean Parisot
@@ -191,7 +168,6 @@ row_number,movie_id,director_name
 166,72559,Jon M. Chu
 167,7364,Breck Eisner
 168,2114,Hironobu Sakaguchi
-168,2114,Motonori Sakakibara
 169,1771,Joe Johnston
 170,36643,Michael Apted
 171,8619,Peter Weir
@@ -199,14 +175,12 @@ row_number,movie_id,director_name
 173,65759,George Miller
 174,1724,Louis Leterrier
 175,267935,Steven Spielberg
-176,281957,Alejandro Gonz??lez I????rritu
+176,281957,Alejandro González Iñárritu
 177,77950,David Soren
 178,44896,Gore Verbinski
 179,270946,Eric Darnell
-179,270946,Simon J. Smith
 180,2503,Paul Greengrass
 181,9502,Mark Osborne
-181,9502,John Stevenson
 182,102899,Peyton Reed
 183,101299,Francis Lawrence
 184,228161,Tim Johnson
@@ -216,11 +190,10 @@ row_number,movie_id,director_name
 188,27576,Phillip Noyce
 189,86834,Darren Aronofsky
 190,17578,Steven Spielberg
-191,673,Alfonso Cuar??n
+191,673,Alfonso Cuarón
 192,6972,Baz Luhrmann
 193,82700,M. Night Shyamalan
 194,10567,Ralph Zondag
-194,10567,Eric Leighton
 195,181533,Shawn Levy
 196,38055,Tom McGrath
 197,671,Chris Columbus
@@ -250,9 +223,8 @@ row_number,movie_id,director_name
 221,10996,Rob Minkoff
 222,68724,Neill Blomkamp
 223,2789,David Twohy
-224,97020,Jos?? Padilha
+224,97020,José Padilha
 225,7459,Lilly Wachowski
-225,7459,Lana Wachowski
 226,42888,James L. Brooks
 227,37834,James Mangold
 228,75612,Joseph Kosinski
@@ -262,13 +234,11 @@ row_number,movie_id,director_name
 232,76170,James Mangold
 233,1893,George Lucas
 234,49519,Chris Sanders
-234,49519,Kirk De Micco
 235,2395,Thomas Langmann
-235,2395,Fr??d??ric Forestier
 236,12100,John Woo
 237,290595,Cedric Nicolas-Troyan
 238,98566,Jonathan Liebesman
-239,49047,Alfonso Cuar??n
+239,49047,Alfonso Cuarón
 240,9619,Roger Donaldson
 241,308531,Dave Green
 242,166424,Josh Trank
@@ -285,7 +255,6 @@ row_number,movie_id,director_name
 253,53182,Noam Murro
 254,41513,Raja Gosnell
 255,13700,Will Finn
-255,13700,John Sanford
 256,262504,Robert Schwentke
 257,39254,Shawn Levy
 258,77931,Raja Gosnell
@@ -300,7 +269,6 @@ row_number,movie_id,director_name
 267,1495,Ridley Scott
 268,10137,Rob Minkoff
 269,10198,Ron Clements
-269,10198,John Musker
 270,286217,Ridley Scott
 271,1635,Michael Bay
 272,24113,Peter Chelsom
@@ -320,7 +288,6 @@ row_number,movie_id,director_name
 286,9268,Chuck Russell
 287,68718,Quentin Tarantino
 288,10545,Gary Trousdale
-288,10545,Kirk Wise
 289,11688,Mark Dindal
 290,76163,Simon West
 291,2059,Jon Turteltaub
@@ -334,13 +301,10 @@ row_number,movie_id,director_name
 299,414,Joel Schumacher
 300,563,Paul Verhoeven
 301,83542,Tom Tykwer
-301,83542,Lilly Wachowski
-301,83542,Lana Wachowski
 302,41216,Zack Snyder
 303,314,Pitof
 304,184315,Brett Ratner
 305,9016,Ron Clements
-305,9016,John Musker
 306,18162,Brad Silberling
 307,138103,Patrick Hughes
 308,257088,Ericson Core
@@ -354,16 +318,13 @@ row_number,movie_id,director_name
 316,3131,Martin Scorsese
 317,76758,Zhang Yimou
 318,9408,Ash Brannon
-318,9408,Chris Buck
 319,9890,Frank Oz
 320,855,Ridley Scott
 321,77953,Jay Roach
 322,18,Luc Besson
 323,37786,Michael Patrick King
 324,10501,Don Michael Paul
-324,10501,Bibo Bergeron
 325,57800,Steve Martino
-325,57800,Mike Thurmeier
 326,150689,Kenneth Branagh
 327,7980,Peter Jackson
 328,12,Andrew Stanton
@@ -386,20 +347,17 @@ row_number,movie_id,director_name
 345,5175,Brett Ratner
 346,2655,Robert Zemeckis
 347,22794,Phil Lord
-347,22794,Christopher Miller
 348,8355,Carlos Saldanha
 349,116745,Ben Stiller
 350,4327,McG
 351,1422,Martin Scorsese
 352,10674,Tony Bancroft
-352,10674,Barry Cook
 353,7446,Ben Stiller
 354,65754,David Fincher
 355,1572,John McTiernan
 356,10528,Guy Ritchie
 357,271969,Timur Bekmambetov
 358,10865,Gary Trousdale
-358,10865,Kirk Wise
 359,258509,Walt Becker
 360,2253,Bryan Singer
 361,10661,Dennis Dugan
@@ -441,8 +399,6 @@ row_number,movie_id,director_name
 397,22897,Nancy Meyers
 398,298,Steven Soderbergh
 399,7484,Jill Culton
-399,7484,Roger Allers
-399,7484,Anthony Stacchi
 400,157350,Neil Burger
 401,853,Jean-Jacques Annaud
 402,10159,Peter Berg
@@ -450,7 +406,6 @@ row_number,movie_id,director_name
 404,1904,Rob Marshall
 405,9615,Justin Lin
 406,51052,Barry Cook
-406,51052,Sarah Smith
 407,297,Martin Brest
 408,9884,Andrew Davis
 409,16858,Bob Fosse
@@ -474,9 +429,7 @@ row_number,movie_id,director_name
 427,45243,Todd Phillips
 428,364,Tim Burton
 429,7518,Karey Kirkpatrick
-429,7518,Tim Johnson
 430,11544,Chris Sanders
-430,11544,Dean DeBlois
 431,9986,Gary Winick
 432,8656,Mimi Leder
 433,146216,Dean Parisot
@@ -488,7 +441,6 @@ row_number,movie_id,director_name
 439,11324,Martin Scorsese
 440,12193,Seth Gordon
 441,9928,Chris Wedge
-441,9928,Carlos Saldanha
 442,754,John Woo
 443,10202,Adam Shankman
 444,4147,Sam Mendes
@@ -497,7 +449,6 @@ row_number,movie_id,director_name
 447,13027,D.J. Caruso
 448,2289,Anthony Minghella
 449,20504,Albert Hughes
-449,20504,Allen Hughes
 450,9574,Les Mayfield
 451,11618,Jan de Bont
 452,2300,Joe Pytka
@@ -508,20 +459,12 @@ row_number,movie_id,director_name
 457,6068,Ivan Reitman
 458,41515,Eric Brevig
 459,9023,Kelly Asbury
-459,9023,Lorna Cook
 460,38317,Frank Coraci
 461,2157,Stephen Hopkins
 462,14462,Jonathan Demme
 463,161795,Henry Jaglom
 464,159824,Genndy Tartakovsky
 465,49948,James Algar
-465,49948,Don Hahn
-465,49948,Ga??tan Brizzi
-465,49948,Paul Brizzi
-465,49948,Eric Goldberg
-465,49948,Hendel Butoy
-465,49948,Francis Glebas
-465,49948,Pixote Hunt
 466,2135,Simon Wells
 467,9822,Ron Underwood
 468,9705,Dominic Sena
@@ -536,7 +479,6 @@ row_number,movie_id,director_name
 477,11973,Roger Donaldson
 478,11228,Rob Cohen
 479,77951,Barry Cook
-479,77951,Neil Nightingale
 480,5491,Roger Christian
 481,10715,Joe Dante
 482,10197,Rob Marshall
@@ -547,33 +489,27 @@ row_number,movie_id,director_name
 487,8870,Antony Hoffman
 488,9992,Luc Besson
 489,36970,Jacques Perrin
-489,36970,Jacques Cluzaud
 490,10077,Peter Hyams
 491,76649,Paul W.S. Anderson
-492,293644,Andr??s Couturier
+492,293644,Andrés Couturier
 493,453,Ron Howard
 494,8587,Roger Allers
-494,8587,Rob Minkoff
 495,72545,Brad Peyton
 496,109451,Cody Cameron
-496,109451,Kris Pearn
 497,9533,Brett Ratner
 498,2023,Joe Johnston
 499,71880,Dennis Dugan
 500,584,John Singleton
 501,309809,Mark Osborne
 502,4858,Oliver Hirschbiegel
-502,4858,James McTeigue
 503,17711,Des McAnuff
 504,328111,Chris Renaud
 505,8698,Stephen Norrington
 506,93456,Pierre Coffin
-506,93456,Chris Renaud
 507,602,Roland Emmerich
 508,330,Steven Spielberg
 509,953,Eric Darnell
-509,953,Tom McGrath
-510,9693,Alfonso Cuar??n
+510,9693,Alfonso Cuarón
 511,36657,Bryan Singer
 512,8909,Timur Bekmambetov
 513,9802,Michael Bay
@@ -589,8 +525,6 @@ row_number,movie_id,director_name
 523,11678,Martin Campbell
 524,6538,Mike Nichols
 525,10555,Vicky Jenson
-525,10555,Bibo Bergeron
-525,10555,Rob Letterman
 526,1125,Bill Condon
 527,4551,F. Gary Gray
 528,612,Steven Spielberg
@@ -605,21 +539,17 @@ row_number,movie_id,director_name
 537,37958,Tarsem Singh
 538,2026,Florent-Emilio Siri
 539,7450,Gary Goldman
-539,7450,Don Bluth
 540,11375,Ron Shelton
 541,9425,Paul W.S. Anderson
-542,25769,?�lex Pastor
-542,25769,David Pastor
+542,25769,Àlex Pastor
 543,23685,Henry Selick
 544,11866,John Moore
 545,9741,M. Night Shyamalan
 546,211672,Kyle Balda
-546,211672,Pierre Coffin
 547,23629,Zack Snyder
 548,8688,Brian De Palma
 549,10153,Barry Levinson
 550,153518,Fergal Reilly
-550,153518,Clay Kaytis
 551,8676,Andy Tennant
 552,20829,Judd Apatow
 553,4349,Peter Berg
@@ -635,10 +565,7 @@ row_number,movie_id,director_name
 563,3050,Betty Thomas
 564,2675,M. Night Shyamalan
 565,809,Andrew Adamson
-565,809,Kelly Asbury
-565,809,Conrad Vernon
 566,920,John Lasseter
-566,920,Joe Ranft
 567,4806,Garry Marshall
 568,7451,Rob Cohen
 569,228165,Paul Tibbitt
@@ -669,8 +596,7 @@ row_number,movie_id,director_name
 594,3132,Joel Schumacher
 595,8814,Andrzej Bartkowiak
 596,8427,Betty Thomas
-597,52520,M??ns M??rlind
-597,52520,Bj??rn Stein
+597,52520,Måns Mårlind
 598,80585,Adam Shankman
 599,10592,Gregory Hoblit
 600,49021,Gary McKendry
@@ -678,24 +604,21 @@ row_number,movie_id,director_name
 602,10550,Wych Kaosayananda
 603,11258,Mikael Salomon
 604,12610,Bobby Farrelly
-604,12610,Peter Farrelly
 605,59981,Dan St. Pierre
 606,201088,Michael Mann
 607,5137,Kerry Conran
 608,3093,Michael Caton-Jones
-609,107846,Mikael H??fstr??m
+609,107846,Mikael Håfström
 610,188207,Renny Harlin
 611,4614,Phil Alden Robinson
 612,24021,David Slade
 613,11371,Frank Oz
 614,20352,Pierre Coffin
-614,20352,Chris Renaud
 615,11517,Joseph Ruben
 616,214756,Seth MacFarlane
-617,26428,Alejandro Amen??bar
+617,26428,Alejandro Amenábar
 618,9824,Kinka Usher
 619,48988,Bobby Farrelly
-619,48988,Peter Farrelly
 620,9008,Michael Mann
 621,300673,Craig Gillespie
 622,12113,Ridley Scott
@@ -711,7 +634,6 @@ row_number,movie_id,director_name
 632,6171,Lawrence Kasdan
 633,72976,Steven Spielberg
 634,603,Lilly Wachowski
-634,603,Lana Wachowski
 635,568,Ron Howard
 636,9021,Michael Lembeck
 637,82695,Tom Hooper
@@ -730,7 +652,6 @@ row_number,movie_id,director_name
 650,345,Stanley Kubrick
 651,196867,Will Gluck
 652,256591,Glenn Ficarra
-652,256591,John Requa
 653,59962,McG
 654,36648,David S. Goyer
 655,1880,John Milius
@@ -748,9 +669,8 @@ row_number,movie_id,director_name
 667,257,Roman Polanski
 668,9947,Rob Bowman
 669,189,Robert Rodriguez
-669,189,Frank Miller
 670,12618,Sydney Pollack
-671,253412,Baltasar Korm??kur
+671,253412,Baltasar Kormákur
 672,1427,Tom Tykwer
 673,818,Jay Roach
 674,16577,David Bowers
@@ -765,7 +685,6 @@ row_number,movie_id,director_name
 683,12138,Demian Lichtenstein
 684,273248,Quentin Tarantino
 685,9955,Josh Gordon
-685,9955,Will Speck
 686,50359,Tim Hill
 687,1271,Zack Snyder
 688,693,Jay Roach
@@ -779,15 +698,12 @@ row_number,movie_id,director_name
 696,2275,Simon West
 697,37165,Peter Weir
 698,9837,Simon Wells
-698,9837,Steve Hickner
-698,9837,Brenda Chapman
 699,10708,Steve Carr
-700,136400,Baltasar Korm??kur
+700,136400,Baltasar Kormákur
 701,10992,Lawrence Guterman
 702,9654,F. Gary Gray
 703,2642,Marc Lawrence
 704,8916,Eric Darnell
-704,8916,Tim Johnson
 705,19899,Peter Billingsley
 706,2119,Tony Scott
 707,9641,Adam Shankman
@@ -814,12 +730,10 @@ row_number,movie_id,director_name
 728,1487,Guillermo del Toro
 729,9422,Steven Zaillian
 730,77174,Sam Fell
-730,77174,Chris Butler
 731,4824,Michael Caton-Jones
 732,9620,John Woo
 733,9302,Jon Avnet
 734,10199,Robert Stevenhagen
-734,10199,Sam Fell
 735,10771,Kevin Donovan
 736,3512,Geoff Murphy
 737,137094,Kenneth Branagh
@@ -828,10 +742,8 @@ row_number,movie_id,director_name
 740,8078,Jean-Pierre Jeunet
 741,7485,Antoine Fuqua
 742,170687,Anthony Stacchi
-742,170687,Graham Annable
 743,6435,Griffin Dunne
 744,137106,Phil Lord
-744,137106,Christopher Miller
 745,10040,John Pasquin
 746,6278,Rob Bowman
 747,82682,Ruben Fleischer
@@ -842,8 +754,6 @@ row_number,movie_id,director_name
 752,9849,Donald Petrie
 753,5820,Clark Johnson
 754,16866,Jorge Blanco
-754,16866,Javier Abad
-754,16866,Marcos Mart??nez
 755,201,Stuart Baird
 756,11775,Joel Coen
 757,87825,Robert Lorenz
@@ -859,14 +769,12 @@ row_number,movie_id,director_name
 767,11679,Lee Tamahori
 768,38321,Scott Stewart
 769,14411,Tim Johnson
-769,14411,Patrick Gilmore
 770,8413,Paul W.S. Anderson
 771,10052,Tom Shadyac
 772,9676,Brian De Palma
 773,9664,Tony Bill
 774,2100,Rod Lurie
 775,10384,Walter Hill
-775,10384,Jack Sholder
 776,137321,Akiva Goldsman
 777,123553,Harald Zwart
 778,11260,Brian Robbins
@@ -897,7 +805,6 @@ row_number,movie_id,director_name
 803,8840,Rob Cohen
 804,10589,Brett Ratner
 805,71676,Brian Taylor
-805,71676,Mark Neveldine
 806,1722,John Madden
 807,10022,Adam Shankman
 808,11358,Kevin Bray
@@ -905,7 +812,6 @@ row_number,movie_id,director_name
 810,6477,Tim Hill
 811,1597,Jay Roach
 812,10530,Mike Gabriel
-812,10530,Eric Goldberg
 813,1924,Richard Donner
 814,9327,Tom Shadyac
 815,8488,Andy Tennant
@@ -925,7 +831,6 @@ row_number,movie_id,director_name
 829,11353,Frank Oz
 830,393,Quentin Tarantino
 831,9618,Andrei Konchalovsky
-831,9618,Albert Magnoli
 832,9374,Robert Zemeckis
 833,8584,Tom Dey
 834,2320,Stuart Baird
@@ -941,10 +846,8 @@ row_number,movie_id,director_name
 844,10632,William Friedkin
 845,12117,Jon Turteltaub
 846,1792,Bobby Farrelly
-846,1792,Peter Farrelly
 847,13260,Kent Alterman
 848,72197,Peter Lord
-848,72197,Jeff Newitt
 849,3580,Clint Eastwood
 850,12123,Andrew Davis
 851,9566,Tony Scott
@@ -966,24 +869,17 @@ row_number,movie_id,director_name
 867,242,Francis Ford Coppola
 868,9621,Cameron Crowe
 869,1819,Anthony Russo
-869,1819,Joe Russo
 870,8536,Richard Lester
 871,8046,Martin Brest
 872,1717,Steven Zaillian
 873,479,John Singleton
 874,9444,Gary Goldman
-874,9444,Don Bluth
 875,824,Baz Luhrmann
 876,11456,Harold Becker
 877,261023,Scott Cooper
 878,3683,Clint Eastwood
 879,22803,F. Gary Gray
 880,285923,Robert Rodriguez
-880,285923,Quentin Tarantino
-880,285923,Edgar Wright
-880,285923,Eli Roth
-880,285923,Rob Zombie
-880,285923,Jason Eisener
 881,39437,Jonathan Demme
 882,1950,Curtis Hanson
 883,640,Steven Spielberg
@@ -994,17 +890,15 @@ row_number,movie_id,director_name
 888,6519,Jay Chandrasekhar
 889,8741,Terrence Malick
 890,49520,David Dobkin
-891,1850,Milo?? Forman
+891,1850,Miloš Forman
 892,524,Martin Scorsese
 893,26389,Pierre Morel
 894,11817,Paul Hunter
 895,2123,Bobby Farrelly
-895,2123,Peter Farrelly
 896,9907,Steve Oedekerk
 897,9969,John Whitesell
 898,18239,Chris Weitz
 899,808,Andrew Adamson
-899,808,Vicky Jenson
 900,38050,George Nolfi
 901,8367,Kevin Reynolds
 902,9390,Cameron Crowe
@@ -1017,7 +911,6 @@ row_number,movie_id,director_name
 909,462,Steven Soderbergh
 910,9919,Donald Petrie
 911,187017,Phil Lord
-911,187017,Christopher Miller
 912,628,Neil Jordan
 913,10201,Peyton Reed
 914,302699,Rawson Marshall Thurber
@@ -1032,7 +925,6 @@ row_number,movie_id,director_name
 923,6877,Tom Dey
 924,10320,Hideo Nakata
 925,50646,Glenn Ficarra
-925,50646,John Requa
 926,8920,Peter Hewitt
 927,13673,Joe Roth
 928,60308,Bennett Miller
@@ -1057,7 +949,6 @@ row_number,movie_id,director_name
 947,588,Christophe Gans
 948,10393,Howard Deutch
 949,71552,Jon Hurwitz
-949,71552,Hayden Schlossberg
 950,9631,F. Gary Gray
 951,216282,Steven Quale
 952,306,John Landis
@@ -1098,12 +989,11 @@ row_number,movie_id,director_name
 987,69668,Jim Sheridan
 988,9770,Costa-Gavras
 989,11212,Patrick Read Johnson
-990,10533,Roland Joff??
+990,10533,Roland Joffé
 991,38363,Doug Liman
 992,9923,Tony Scott
 993,11863,William Friedkin
 994,18501,Brian Taylor
-994,18501,Mark Neveldine
 995,109491,Richard LaGravenese
 996,9275,Danny DeVito
 997,329833,Ben Stiller
@@ -1139,8 +1029,6 @@ row_number,movie_id,director_name
 1027,1368,Ted Kotcheff
 1028,593,Andrei Tarkovsky
 1029,5393,Yvette Kaplan
-1029,5393,Paul Bolger
-1029,5393,Greg Tiernan
 1030,9095,Stephen Frears
 1031,8874,P.J. Hogan
 1032,11467,Joe Roth
@@ -1174,9 +1062,7 @@ row_number,movie_id,director_name
 1060,6282,David McNally
 1061,508,Richard Curtis
 1062,9487,Andrew Stanton
-1062,9487,John Lasseter
 1063,768,Albert Hughes
-1063,768,Allen Hughes
 1064,2636,Luis Llosa
 1065,10478,Ron Shelton
 1066,27983,Melville Shavelson
@@ -1210,7 +1096,6 @@ row_number,movie_id,director_name
 1094,12412,Spike Lee
 1095,1494,Zhang Yimou
 1096,13184,Danny Pang
-1096,13184,Oxide Pang Chun
 1097,2185,Barry Sonnenfeld
 1098,6639,Mike Newell
 1099,38153,George P. Cosmatos
@@ -1223,7 +1108,6 @@ row_number,movie_id,director_name
 1106,1369,George P. Cosmatos
 1107,9623,Brian Gibson
 1108,10895,Ben Sharpsteen
-1108,10895,Hamilton Luske
 1109,10935,Michael Cimino
 1110,834,Len Wiseman
 1111,228066,Paul McGuigan
@@ -1235,10 +1119,8 @@ row_number,movie_id,director_name
 1117,37950,Burr Steers
 1118,27582,Simon West
 1119,64688,Phil Lord
-1119,64688,Christopher Miller
 1120,509,Roger Michell
 1121,7443,Nick Park
-1121,7443,Peter Lord
 1122,5966,John Hamburg
 1123,11066,Reginald Hudlin
 1124,136795,Paul Feig
@@ -1252,12 +1134,10 @@ row_number,movie_id,director_name
 1132,49730,Catherine Hardwicke
 1133,2749,John Herzfeld
 1134,9607,Annabel Jankel
-1134,9607,Rocky Morton
 1135,1830,Andrew Niccol
 1136,79,Zhang Yimou
 1137,54054,Julie Anne Robinson
 1138,228967,Seth Rogen
-1138,228967,Evan Goldberg
 1139,46528,Sngmoo Lee
 1140,27936,Jean-Pierre Jeunet
 1141,65,Curtis Hanson
@@ -1291,18 +1171,15 @@ row_number,movie_id,director_name
 1169,109410,Brian Helgeland
 1170,1213,Anthony Minghella
 1171,100042,Bobby Farrelly
-1171,100042,Peter Farrelly
 1172,9036,Frank Marshall
 1173,257211,Nancy Meyers
 1174,323675,Tim Story
 1175,9361,Michael Mann
 1176,1677,Taylor Hackford
 1177,187,Robert Rodriguez
-1177,187,Frank Miller
 1178,7461,Pete Travis
 1179,16538,John Hamburg
 1180,9889,Bobby Farrelly
-1180,9889,Peter Farrelly
 1181,820,Oliver Stone
 1182,11565,John Whitesell
 1183,6073,Gore Verbinski
@@ -1314,7 +1191,7 @@ row_number,movie_id,director_name
 1189,32823,Nicholas Stoller
 1190,4380,Peter Chelsom
 1191,11551,Joe Dante
-1192,10336,Mark A.Z. Dipp??
+1192,10336,Mark A.Z. Dippé
 1193,11362,Kevin Reynolds
 1194,50348,Brad Furman
 1195,48138,Jaume Collet-Serra
@@ -1323,7 +1200,7 @@ row_number,movie_id,director_name
 1198,68179,Callan Brunker
 1199,1579,Mel Gibson
 1200,708,John Glen
-1201,34851,Nimr??d Antal
+1201,34851,Nimród Antal
 1202,9930,Ivan Reitman
 1203,1586,David Koepp
 1204,2044,Alejandro Agresti
@@ -1336,7 +1213,6 @@ row_number,movie_id,director_name
 1211,11831,Steven Spielberg
 1212,9096,John McTiernan
 1213,440,Colin Strause
-1213,440,Greg Strause
 1214,11011,Donald Petrie
 1215,10641,Joan Chen
 1216,11172,Marc Lawrence
@@ -1351,7 +1227,6 @@ row_number,movie_id,director_name
 1225,10154,Kelly Makin
 1226,10647,Mimi Leder
 1227,11431,Bobby Farrelly
-1227,11431,Peter Farrelly
 1228,8457,Steven Brill
 1229,188161,Seth MacFarlane
 1230,8850,Russell Mulcahy
@@ -1363,7 +1238,6 @@ row_number,movie_id,director_name
 1236,10391,Chuck Russell
 1237,8970,Sam Weisman
 1238,9306,John Frankenheimer
-1238,9306,Richard Stanley
 1239,11370,Peter Hyams
 1240,12184,Justin Chadwick
 1241,1921,Pat O'Connor
@@ -1399,11 +1273,10 @@ row_number,movie_id,director_name
 1271,19898,Christian Alvart
 1272,4965,Gary Fleder
 1273,15074,Christian Duguay
-1274,56715,Jean-Marie Poir??
+1274,56715,Jean-Marie Poiré
 1275,1272,Danny Boyle
 1276,72358,Brian Robbins
 1277,20542,Marc F. Adler
-1277,20542,Jason Maurer
 1278,266396,Pierre Morel
 1279,9978,Geoffrey Sax
 1280,8271,D.J. Caruso
@@ -1411,9 +1284,7 @@ row_number,movie_id,director_name
 1282,5353,Richard Shepard
 1283,11934,Joel Coen
 1284,14392,Peter Chan
-1284,14392,Raymond Yip Wai-Man
 1285,19495,Sergei Bodrov Jr.
-1285,19495,Ivan Passer
 1286,110415,Bong Joon-ho
 1287,77459,Bibo Bergeron
 1288,26486,Jeff Nathanson
@@ -1459,9 +1330,7 @@ row_number,movie_id,director_name
 1328,23168,Ben Affleck
 1329,76494,Kirk Jones
 1330,4944,Joel Coen
-1330,4944,Ethan Coen
 1331,10488,Jennifer Flackett
-1331,10488,Mark Levin
 1332,96721,Ron Howard
 1333,334,Paul Thomas Anderson
 1334,23742,Kevin Smith
@@ -1481,7 +1350,7 @@ row_number,movie_id,director_name
 1348,222936,Cameron Crowe
 1349,31908,Rob Reiner
 1350,10219,Scott Hicks
-1351,48171,Mikael H??fstr??m
+1351,48171,Mikael Håfström
 1352,782,Andrew Niccol
 1353,75531,Andrew Bergman
 1354,11802,Kirk De Micco
@@ -1490,13 +1359,12 @@ row_number,movie_id,director_name
 1357,365222,Wilson Yip
 1358,817,Jay Roach
 1359,268,Tim Burton
-1360,45054,Roland Joff??
+1360,45054,Roland Joffé
 1361,943,Richard Donner
 1362,22881,John Lee Hancock
 1363,10054,Robert Rodriguez
 1364,51540,Seth Gordon
 1365,44264,Joel Coen
-1365,44264,Ethan Coen
 1366,350,David Frankel
 1367,152,Robert Wise
 1368,109431,Seth Gordon
@@ -1529,7 +1397,6 @@ row_number,movie_id,director_name
 1395,1576,Paul W.S. Anderson
 1396,609,Tobe Hooper
 1397,5516,Joel Coen
-1397,5516,Ethan Coen
 1398,13051,John Moore
 1399,49530,Andrew Niccol
 1400,34806,Alan Poul
@@ -1574,9 +1441,9 @@ row_number,movie_id,director_name
 1439,4515,Robert Redford
 1440,18886,John Milius
 1441,6575,Jake Kasdan
-1442,6440,Lasse Hallstr??m
+1442,6440,Lasse Hallström
 1443,13496,Les Mayfield
-1444,18320,Jean-Marc Vall??e
+1444,18320,Jean-Marc Vallée
 1445,22787,Dominic Sena
 1446,8967,Terrence Malick
 1447,37498,Tsui Hark
@@ -1594,9 +1461,8 @@ row_number,movie_id,director_name
 1459,26843,Moustapha Akkad
 1460,11876,Jean-Paul Rappeneau
 1461,22267,Ang Lee
-1462,45958,Alejandro Gonz??lez I????rritu
-1463,1969,Joachim R??nning
-1463,1969,Espen Sandberg
+1462,45958,Alejandro González Iñárritu
+1463,1969,Joachim Rønning
 1464,310706,Tony Kaye
 1465,198663,Wes Ball
 1466,239573,Ken Scott
@@ -1615,7 +1481,6 @@ row_number,movie_id,director_name
 1479,10877,Andrzej Bartkowiak
 1480,9600,Raja Gosnell
 1481,202575,Ben Stassen
-1481,202575,Jeremy Degruson
 1482,71469,Chris Gorak
 1483,85446,Scott Speer
 1484,326,David R. Ellis
@@ -1635,7 +1500,6 @@ row_number,movie_id,director_name
 1498,9353,Jared Hess
 1499,55721,Paul Feig
 1500,109414,Seth Rogen
-1500,109414,Evan Goldberg
 1501,10307,Rupert Wainwright
 1502,11978,"George Tillman, Jr."
 1503,22907,John Luessenhop
@@ -1672,7 +1536,6 @@ row_number,movie_id,director_name
 1534,6488,Frank Marshall
 1535,10559,Gregory Hoblit
 1536,296099,John Francis Daley
-1536,296099,Jonathan M. Goldstein
 1537,8012,Barry Sonnenfeld
 1538,1574,Rob Marshall
 1539,9032,Dennis Dugan
@@ -1706,7 +1569,6 @@ row_number,movie_id,director_name
 1567,82654,Jonathan Levine
 1568,59967,Rian Johnson
 1569,16300,Chris Weitz
-1569,16300,Paul Weitz
 1570,9598,Chris Noonan
 1571,82696,David Frankel
 1572,9870,Nicholas Stoller
@@ -1725,16 +1587,13 @@ row_number,movie_id,director_name
 1585,36593,Peter Segal
 1586,707,John Glen
 1587,533,Nick Park
-1587,533,Steve Box
 1588,6023,Richard LaGravenese
 1589,6439,Frederik Du Chau
 1590,4347,Joe Wright
 1591,37056,Gary Winick
 1592,4105,Ridley Scott
 1593,76489,Bobby Farrelly
-1593,76489,Peter Farrelly
 1594,3933,Tim Burton
-1594,3933,Mike Johnson
 1595,9918,James Gartner
 1596,273481,Denis Villeneuve
 1597,307081,Antoine Fuqua
@@ -1747,7 +1606,6 @@ row_number,movie_id,director_name
 1604,4513,David Slade
 1605,22970,Drew Goddard
 1606,7278,Jason Friedberg
-1606,7278,Aaron Seltzer
 1607,9013,Martin Brest
 1608,865,Paul Michael Glaser
 1609,10776,Frank Oz
@@ -1762,7 +1620,6 @@ row_number,movie_id,director_name
 1618,109421,Steven Soderbergh
 1619,11137,Martha Coolidge
 1620,51162,Stephen Anderson
-1620,51162,Don Hall
 1621,10152,Troy Miller
 1622,9452,Warren Beatty
 1623,239566,Tate Taylor
@@ -1776,7 +1633,7 @@ row_number,movie_id,director_name
 1631,16232,Charles Stone III
 1632,43539,Paul Haggis
 1633,9920,Kurt Wimmer
-1634,8978,Jean-Fran??ois Richet
+1634,8978,Jean-François Richet
 1635,11702,Antoine Fuqua
 1636,18550,Kevin Hooks
 1637,8869,Ellory Elkayem
@@ -1799,7 +1656,7 @@ row_number,movie_id,director_name
 1654,11058,Nick Hamm
 1655,14844,Andy Cadiff
 1656,57089,Mike Disa
-1657,1947,Lasse Hallstr??m
+1657,1947,Lasse Hallström
 1658,8054,Terry Gilliam
 1659,46829,Richard J. Lewis
 1660,146238,Brad Furman
@@ -1815,19 +1672,16 @@ row_number,movie_id,director_name
 1670,9053,Corey Yuen Kwai
 1671,4512,Andrew Dominik
 1672,76349,Jackie Chan
-1672,76349,?????? | Zhang Li
 1673,31203,Laurent Tirard
 1674,265208,Simon West
 1675,45610,Marc Forster
 1676,50135,Reinhard Klooss
-1676,50135,Holger Tappe
 1677,1874,Bille August
-1678,271331,Fr??d??ric Auburtin
+1678,271331,Frédéric Auburtin
 1679,215211,Olivier Dahan
 1680,367961,Maksim Fadeev
 1681,10955,Liliana Cavani
 1682,223702,Conrad Vernon
-1682,223702,Greg Tiernan
 1683,254470,Elizabeth Banks
 1684,69,James Mangold
 1685,4967,Edward Norton
@@ -1841,11 +1695,9 @@ row_number,movie_id,director_name
 1693,11249,Don Mancini
 1694,9667,John Maybury
 1695,812,Ron Clements
-1695,812,John Musker
 1696,277216,F. Gary Gray
 1697,87,Steven Spielberg
 1698,14444,Norton Virgien
-1698,14444,Igor Kovalyov
 1699,2043,Lee Tamahori
 1700,315664,Stephen Frears
 1701,1428,Robert Rodriguez
@@ -1864,7 +1716,7 @@ row_number,movie_id,director_name
 1714,9778,Peter Chelsom
 1715,8831,Peter Hyams
 1716,9398,Ben Stiller
-1717,112949,Lasse Hallstr??m
+1717,112949,Lasse Hallström
 1718,10439,Kenny Ortega
 1719,3638,Scott Hicks
 1720,23483,Matthew Vaughn
@@ -1876,7 +1728,7 @@ row_number,movie_id,director_name
 1726,11780,Michael Caton-Jones
 1727,192102,McG
 1728,2001,James Gray
-1729,10383,Janusz Kami??ski
+1729,10383,Janusz Kamiński
 1730,11516,Jacques Perrin
 1731,10025,Donald Petrie
 1732,15198,Jay Roach
@@ -1888,7 +1740,7 @@ row_number,movie_id,director_name
 1738,9746,Martin Scorsese
 1739,13092,Robert B. Weide
 1740,59859,Jeff Wadlow
-1741,13495,Agust??n D??az Yanes
+1741,13495,Agustín Díaz Yanes
 1742,254473,Camille Delamarre
 1743,700,John Glen
 1744,4964,Judd Apatow
@@ -1904,7 +1756,6 @@ row_number,movie_id,director_name
 1754,10188,Sanaa Hamri
 1755,63574,Todd Graff
 1756,245,Chris Weitz
-1756,245,Paul Weitz
 1757,9825,Steve Miner
 1758,186,Paul McGuigan
 1759,9549,Philip Kaufman
@@ -1955,7 +1806,6 @@ row_number,movie_id,director_name
 1804,9092,Michael Cohn
 1805,2779,Woody Allen
 1806,316002,David O. Russell
-1806,316002,Stephen Greene
 1807,36355,Alan Shapiro
 1808,238615,Tarsem Singh
 1809,1985,Fernando Meirelles
@@ -1979,10 +1829,9 @@ row_number,movie_id,director_name
 1827,1497,Michael Pressman
 1828,117,Brian De Palma
 1829,6977,Joel Coen
-1829,6977,Ethan Coen
 1830,168530,Tim Story
 1831,634,Sharon Maguire
-1832,392,Lasse Hallstr??m
+1832,392,Lasse Hallström
 1833,10327,Charles Herman-Wurmfeld
 1834,88042,Andy Fickman
 1835,41630,Ivan Reitman
@@ -1991,7 +1840,7 @@ row_number,movie_id,director_name
 1838,794,Richard Donner
 1839,9286,James Wong
 1840,77877,Scott Hicks
-1841,1265,G??bor Csup??
+1841,1265,Gábor Csupó
 1842,866,Marc Forster
 1843,175555,Tyler Perry
 1844,75174,Joe Carnahan
@@ -2003,13 +1852,11 @@ row_number,movie_id,director_name
 1850,111,Brian De Palma
 1851,11676,Steve Oedekerk
 1852,746,Bernardo Bertolucci
-1853,77866,Baltasar Korm??kur
+1853,77866,Baltasar Kormákur
 1854,9416,Brett Ratner
 1855,7345,Paul Thomas Anderson
 1856,14317,Cathy Malkasian
-1856,14317,Jeff McGrath
 1857,20694,Norton Virgien
-1857,20694,John Eng
 1858,12277,Malcolm D. Lee
 1859,9779,Ken Kwapis
 1860,2140,Chris Nahon
@@ -2030,15 +1877,12 @@ row_number,movie_id,director_name
 1875,4518,Shekhar Kapur
 1876,11932,Ronny Yu
 1877,11165,Richard Fleischer
-1877,11165,Kinji Fukasaku
-1877,11165,Toshio Masuda
 1878,6116,Bob Spiers
 1879,57431,David Gordon Green
 1880,21724,Damien Dante Wayans
 1881,278,Frank Darabont
 1882,9290,Simon Wincer
 1883,11543,Bobby Farrelly
-1883,11543,Peter Farrelly
 1884,284536,Rupert Wyatt
 1885,152737,John Wells
 1886,13374,Tim Fywell
@@ -2046,7 +1890,7 @@ row_number,movie_id,director_name
 1888,319888,Dexter Fletcher
 1889,9469,Spike Lee
 1890,1909,Jeremy Leven
-1891,22971,Lasse Hallstr??m
+1891,22971,Lasse Hallström
 1892,34813,Sylvain White
 1893,46261,Troy Nixey
 1894,10431,Philip G. Atwell
@@ -2084,7 +1928,7 @@ row_number,movie_id,director_name
 1926,77883,Ole Bornedal
 1927,40001,Richard Benjamin
 1928,64639,Rod Lurie
-1929,9903,Lasse Hallstr??m
+1929,9903,Lasse Hallström
 1930,21338,Craig R. Baxley
 1931,20766,John Hillcoat
 1932,24264,John Guillermin
@@ -2105,11 +1949,8 @@ row_number,movie_id,director_name
 1947,49953,Ben Stassen
 1948,48034,Guillaume Canet
 1949,39845,Taylor Hackford
-1950,25353,J??r??me Deschamps
-1950,25353,Pascal H??rold
-1950,25353,Macha Make??eff
+1950,25353,Jérôme Deschamps
 1951,36696,Inna Evlannikova
-1951,36696,Svyatoslav Ushakov
 1952,109091,Ridley Scott
 1953,38543,Jonathan English
 1954,33157,Sergey Bondarchuk
@@ -2172,24 +2013,23 @@ row_number,movie_id,director_name
 2011,22215,Stephen Frears
 2012,11632,Mira Nair
 2013,30596,Teddy Chan
-2014,3021,Mikael H??fstr??m
+2014,3021,Mikael Håfström
 2015,957,Mel Brooks
 2016,256917,Russell Crowe
 2017,251,Jerry Zucker
 2018,544,Bobby Farrelly
-2018,544,Peter Farrelly
 2019,11395,John Pasquin
 2020,14635,John Lee Hancock
 2021,13680,Andy Fickman
 2022,688,Clint Eastwood
 2023,11090,Luke Greenfield
 2024,783,Richard Attenborough
-2025,228194,Lasse Hallstr??m
+2025,228194,Lasse Hallström
 2026,1642,Irwin Winkler
 2027,10950,Jessie Nelson
 2028,235260,Christopher Spencer
 2029,277,Len Wiseman
-2030,8999,Mikael H??fstr??m
+2030,8999,Mikael Håfström
 2031,11323,Steven Soderbergh
 2032,10445,Richard Attenborough
 2033,11453,Mike Bigelow
@@ -2201,15 +2041,12 @@ row_number,movie_id,director_name
 2039,2294,Kevin Smith
 2040,2176,Daniel Sackheim
 2041,270487,Joel Coen
-2041,270487,Ethan Coen
 2042,19366,Deborah Kaplan
-2042,19366,Harry Elfont
 2043,204082,Gary Fleder
 2044,24100,Uli Edel
 2045,1599,David O. Russell
 2046,5550,Fred Dekker
 2047,30379,Brian Trenchard-Smith
-2047,30379,Paul J. Lombardi
 2048,42586,Blake Edwards
 2049,17709,Hugh Wilson
 2050,287948,Camille Delamarre
@@ -2217,7 +2054,6 @@ row_number,movie_id,director_name
 2052,9075,Paul Verhoeven
 2053,11661,Christian Carion
 2054,109513,Dax Shepard
-2054,109513,David Palmer
 2055,12085,Callie Khouri
 2056,204922,Rowan Joffe
 2057,38985,William Friedkin
@@ -2227,7 +2063,7 @@ row_number,movie_id,director_name
 2061,4566,Tony Gilroy
 2062,17795,Peter Segal
 2063,1073,Mark Pellington
-2064,153158,Juan Jos?? Campanella
+2064,153158,Juan José Campanella
 2065,81836,Woody Allen
 2066,10724,Clint Eastwood
 2067,9473,Trey Parker
@@ -2238,7 +2074,6 @@ row_number,movie_id,director_name
 2072,1646,Richard LaGravenese
 2073,44944,Tyler Perry
 2074,4108,Louis Leterrier
-2074,4108,Corey Yuen Kwai
 2075,8456,Jeff Wadlow
 2076,7341,Katt Shea
 2077,19255,Sam Mendes
@@ -2277,11 +2112,8 @@ row_number,movie_id,director_name
 2110,103370,Tyler Perry
 2111,1051,William Friedkin
 2112,376659,Jon Lucas
-2112,376659,Scott Moore
 2113,10073,Jason Friedberg
-2113,10073,Aaron Seltzer
 2114,16690,Robin Budd
-2114,16690,Donovan Cook
 2115,273895,Ava DuVernay
 2116,14873,Steve Trenbirth
 2117,8968,Stephen T. Kay
@@ -2290,7 +2122,6 @@ row_number,movie_id,director_name
 2120,21208,Jaume Collet-Serra
 2121,272878,Boaz Yakin
 2122,9760,Jason Friedberg
-2122,9760,Aaron Seltzer
 2123,314365,Tom McCarthy
 2124,13279,Neil LaBute
 2125,1975,Takashi Shimizu
@@ -2301,8 +2132,7 @@ row_number,movie_id,director_name
 2130,27579,Anton Corbijn
 2131,16052,Gregory Nava
 2132,40264,Jason Friedberg
-2132,40264,Aaron Seltzer
-2133,1164,Alejandro Gonz??lez I????rritu
+2133,1164,Alejandro González Iñárritu
 2134,239678,Shawn Levy
 2135,14359,John Patrick Shanley
 2136,3989,Trey Parker
@@ -2327,19 +2157,16 @@ row_number,movie_id,director_name
 2155,107985,Edgar Wright
 2156,14043,Andrew Fleming
 2157,19901,Michael Spierig
-2157,19901,Peter Spierig
 2158,34016,Jim Field Smith
 2159,59860,Thomas Bezucha
 2160,10069,William Brent Bell
 2161,9588,Simon Wincer
 2162,12819,Ben Gluck
-2162,12819,Anthony Bell
 2163,9954,Renny Harlin
 2164,10115,Jessica Bendinger
 2165,25132,Robert Rodriguez
 2166,577,Gus Van Sant
 2167,328387,Henry Joost
-2167,328387,Ariel Schulman
 2168,12690,Ed Harris
 2169,9945,John Carpenter
 2170,539,Alfred Hitchcock
@@ -2359,7 +2186,7 @@ row_number,movie_id,director_name
 2184,9470,Stephen Chow
 2185,18357,Peter Hastings
 2186,7979,Marc Forster
-2187,470,Alejandro Gonz??lez I????rritu
+2187,470,Alejandro González Iñárritu
 2188,15644,Paul Abascal
 2189,9582,Chris Koch
 2190,10642,Amy Heckerling
@@ -2367,15 +2194,12 @@ row_number,movie_id,director_name
 2192,2428,George Stevens
 2193,290751,Billy Ray
 2194,13805,Jason Friedberg
-2194,13805,Aaron Seltzer
-2195,4597,Nimr??d Antal
+2195,4597,Nimród Antal
 2196,9414,Jon Amiel
 2197,63492,Mark Mylod
 2198,81796,Stephen St. Leger
-2198,81796,James Mather
 2199,10710,Barry Levinson
 2200,15092,Brian Taylor
-2200,15092,Mark Neveldine
 2201,11382,Woody Allen
 2202,15005,Michael O. Sajbel
 2203,8198,Phillip Noyce
@@ -2402,8 +2226,6 @@ row_number,movie_id,director_name
 2224,42618,Bob Fosse
 2225,171274,Paul Thomas Anderson
 2226,24432,Frank Passingham
-2226,24432,Dave Borthwick
-2226,24432,Jean Duval
 2227,109417,Benson Lee
 2228,13948,David Zucker
 2229,106747,Robert Rodriguez
@@ -2414,7 +2236,6 @@ row_number,movie_id,director_name
 2234,48231,David Cronenberg
 2235,3509,Richard Linklater
 2236,82684,Curtis Hanson
-2236,82684,Michael Apted
 2237,12142,Uwe Boll
 2238,23367,Todd Graff
 2239,10740,Jonathan Glazer
@@ -2436,16 +2257,16 @@ row_number,movie_id,director_name
 2255,19457,James Gray
 2256,112937,Matthew Diamond
 2257,314385,Angelina Jolie
-2258,8953,Katsuhiro ??tomo
+2258,8953,Katsuhiro Ōtomo
 2259,29078,David Anspaugh
 2260,46503,Andrew Jarecki
 2261,10448,Kevin Reynolds
 2262,13688,Stephen Chow
-2263,10353,Jean-Marie Poir??
+2263,10353,Jean-Marie Poiré
 2264,43935,Kevin Munroe
 2265,11458,Daniel Algrant
 2266,44638,Julie Taymor
-2267,241257,Alejandro Amen??bar
+2267,241257,Alejandro Amenábar
 2268,14538,Daniel Lee
 2269,13250,Mike Barker
 2270,133931,Wayne Thornley
@@ -2468,7 +2289,6 @@ row_number,movie_id,director_name
 2287,26367,Tyler Perry
 2288,385383,Rob Hawk
 2289,41210,Josh Gordon
-2289,41210,Will Speck
 2290,12090,Shawn Levy
 2291,62630,Lee Tamahori
 2292,16110,Britt Allcroft
@@ -2489,10 +2309,8 @@ row_number,movie_id,director_name
 2307,2757,Spike Jonze
 2308,11683,George A. Romero
 2309,244339,Danny Pang
-2309,244339,Oxide Pang Chun
 2310,1878,Terry Gilliam
 2311,23082,Ricky Gervais
-2311,23082,Matthew Robinson
 2312,195589,Nicholas Stoller
 2313,854,Chuck Russell
 2314,2280,Penny Marshall
@@ -2509,13 +2327,13 @@ row_number,movie_id,director_name
 2325,302688,Kirk Jones
 2326,60307,David Bowers
 2327,106,John McTiernan
-2328,279,Milo?? Forman
+2328,279,Miloš Forman
 2329,8617,Nelson McCormick
 2330,10625,Mark Waters
 2331,10934,Audrey Wells
 2332,5279,Robert Altman
 2333,10013,Francis Ford Coppola
-2334,194662,Alejandro Gonz??lez I????rritu
+2334,194662,Alejandro González Iñárritu
 2335,160588,Woody Allen
 2336,9829,Paul Greengrass
 2337,10028,Bille Woodruff
@@ -2534,8 +2352,6 @@ row_number,movie_id,director_name
 2350,10560,Nicholas Hytner
 2351,333348,Jessie Nelson
 2352,20483,Bart Freundlich
-2352,20483,James Sbardellati
-2352,20483,Peter Merwin
 2353,11457,Irwin Winkler
 2354,321697,Danny Boyle
 2355,19840,Chris Columbus
@@ -2547,7 +2363,7 @@ row_number,movie_id,director_name
 2361,68924,Ang Lee
 2362,253235,Rob Reiner
 2363,22102,Jeff Kanew
-2364,18701,Istv??n Szab??
+2364,18701,István Szabó
 2365,10068,Adrian Lyne
 2366,848,Matthew Robbins
 2367,36811,Michael Hoffman
@@ -2565,7 +2381,7 @@ row_number,movie_id,director_name
 2379,396152,Zack Ward
 2380,10017,Mike Marvin
 2381,11468,D.J. Caruso
-2382,193613,Nimr??d Antal
+2382,193613,Nimród Antal
 2383,17436,Gregor Jordan
 2384,43434,Olivier Assayas
 2385,31166,Tran Anh Hung
@@ -2574,20 +2390,18 @@ row_number,movie_id,director_name
 2388,332411,Chuck Russell
 2389,9389,Christian Volckman
 2390,9626,Richard Fleischer
-2391,75638,Rodrigo Cort??s
+2391,75638,Rodrigo Cortés
 2392,8363,Greg Mottola
 2393,15670,Tyler Perry
 2394,290555,David Hayter
 2395,8328,Jon M. Chu
 2396,10982,Cory Edwards
-2396,10982,Todd Edwards
-2396,10982,Tony Leech
 2397,205,Terry George
 2398,1620,Xavier Gens
 2399,175541,Kasi Lemmons
 2400,241254,Brian A Miller
 2401,31932,Matt Dillon
-2402,1933,Alejandro Amen??bar
+2402,1933,Alejandro Amenábar
 2403,679,James Cameron
 2404,11113,George Cukor
 2405,3597,Jim Gillespie
@@ -2615,7 +2429,6 @@ row_number,movie_id,director_name
 2427,16112,Gary Halvorson
 2428,26390,Antoine Fuqua
 2429,27759,Nicholas Ray
-2429,27759,Guy Green
 2430,109428,Fede Alvarez
 2431,23049,Donald Petrie
 2432,9310,Paul Weitz
@@ -2630,7 +2443,6 @@ row_number,movie_id,director_name
 2441,255343,Andrea Di Stefano
 2442,4723,Richard Kelly
 2443,10800,Guillaume Ivernel
-2443,10800,Arthur Qwak
 2444,25763,Jack Smight
 2445,79694,Todd Lincoln 
 2446,4032,Howard Zieff
@@ -2642,7 +2454,6 @@ row_number,movie_id,director_name
 2452,11093,Vadim Perelman
 2453,207,Peter Weir
 2454,8467,Bobby Farrelly
-2454,8467,Peter Farrelly
 2455,639,Rob Reiner
 2456,24226,Sidney Lumet
 2457,9285,Todd Phillips
@@ -2686,18 +2497,17 @@ row_number,movie_id,director_name
 2495,68727,Danny Boyle
 2496,12657,Jessy Terrero
 2497,8265,Dany Boon
-2497,8265,Nicolas Guy
 2498,12410,Vicente Amorim
-2499,34647,Gaspar No??
+2499,34647,Gaspar Noé
 2500,73935,Amy Heckerling
-2501,28178,Lasse Hallstr??m
-2502,185567,J??r??me Salle
+2501,28178,Lasse Hallström
+2502,185567,Jérôme Salle
 2503,264656,Tommy Lee Jones
 2504,35696,Jesse Vaughan
 2505,16351,Atom Egoyan
 2506,38717,William Bindley
 2507,18777,Wayne Beach
-2508,2110,G??rard Krawczyk
+2508,2110,Gérard Krawczyk
 2509,9035,James Gunn
 2510,90,Martin Brest
 2511,771,Chris Columbus
@@ -2741,7 +2551,7 @@ row_number,movie_id,director_name
 2549,10564,Matt Williams
 2550,947,David Lean
 2551,24150,Rob Zombie
-2552,228970,Jean-Marc Vall??e
+2552,228970,Jean-Marc Vallée
 2553,18405,Dennis Iliadis
 2554,6961,Clare Kilner
 2555,11442,Rick Rosenthal
@@ -2781,19 +2591,15 @@ row_number,movie_id,director_name
 2589,13166,Tom Green
 2590,15511,Mike Nawrocki
 2591,37003,Mark Pellington
-2591,37003,Catherine Owens
 2592,12211,Douglas Aarniokoski
 2593,13816,Bryan Barber
 2594,51828,Lone Scherfig
 2595,22798,Drew Barrymore
 2596,7501,Brian Koppelman
-2596,7501,David Levien
 2597,10743,James Foley
 2598,37718,Albert Brooks
 2599,15237,Irwin Winkler
 2600,9686,Francis Ford Coppola
-2600,9686,Martin Scorsese
-2600,9686,Woody Allen
 2601,17644,Steve Gomer
 2602,97430,RZA
 2603,12257,Dean Parisot
@@ -2838,17 +2644,16 @@ row_number,movie_id,director_name
 2642,9104,Gregor Jordan
 2643,11190,Andrey Zvyagintsev
 2644,16353,Tony Jaa
-2644,16353,Panna Rittikrai
 2645,23759,Neil Marshall
 2646,24206,Russell Mulcahy
-2647,10185,Ry??hei Kitamura
+2647,10185,Ryûhei Kitamura
 2648,75033,Darrell James Roodt
 2649,74536,Dito Montiel
 2650,31668,Stefan Ruzowitzky
 2651,13501,Jake Paltrow
 2652,15208,Juraj Jakubisko
 2653,172391,Anthony Silverston
-2654,262543,Gabe Ib????ez
+2654,262543,Gabe Ibáñez
 2655,9288,Gerry Lively
 2656,370980,Daniele Luchetti
 2657,20083,Derek Yee Tung-Sing
@@ -2876,7 +2681,6 @@ row_number,movie_id,director_name
 2679,13824,Bruce McCulloch
 2680,71688,Phyllida Lloyd
 2681,15173,Phil Vischer
-2681,15173,Mike Nawrocki
 2682,8291,John Singleton
 2683,13950,Kevin Bray
 2684,12158,Wes Craven
@@ -2908,7 +2712,6 @@ row_number,movie_id,director_name
 2710,37842,Alain Resnais
 2711,9045,Costa-Gavras
 2712,44092,John Woo
-2712,44092,Chao-Bin Su
 2713,16005,Neil Burger
 2714,44754,Kenneth Lonergan
 2715,23988,Bo Zenga
@@ -2921,7 +2724,7 @@ row_number,movie_id,director_name
 2722,86838,Martin McDonagh
 2723,25208,Kasi Lemmons
 2724,613,Oliver Hirschbiegel
-2725,1913,Alejandro Amen??bar
+2725,1913,Alejandro Amenábar
 2726,97370,Jonathan Glazer
 2727,801,Barry Levinson
 2728,70829,Shim Hyung-Rae
@@ -2940,7 +2743,6 @@ row_number,movie_id,director_name
 2741,9644,Gene Quintano
 2742,332567,Jaume Collet-Serra
 2743,1954,Eric Bress
-2743,1954,J. Mackye Gruber
 2744,15489,Chris Koch
 2745,15250,Preston A. Whitmore II
 2746,22345,Bob Clark
@@ -2966,28 +2768,7 @@ row_number,movie_id,director_name
 2766,9683,Blair Hayes
 2767,2084,Jez Butterworth
 2768,107811,Jon Lucas
-2768,107811,Scott Moore
 2769,2266,Isabel Coixet
-2769,2266,Christopher Doyle
-2769,2266,Tom Tykwer
-2769,2266,Joel Coen
-2769,2266,Ethan Coen
-2769,2266,Richard LaGravenese
-2769,2266,Wes Craven
-2769,2266,Gus Van Sant
-2769,2266,Vincenzo Natali
-2769,2266,Gurinder Chadha
-2769,2266,Walter Salles
-2769,2266,Alfonso Cuar??n
-2769,2266,Alexander Payne
-2769,2266,G??rard Depardieu
-2769,2266,Sylvain Chomet
-2769,2266,Bruno Podalyd??s
-2769,2266,Fr??d??ric Auburtin
-2769,2266,Olivier Assayas
-2769,2266,Nobuhiro Suwa
-2769,2266,Oliver Schmitz
-2769,2266,Daniela Thomas
 2770,13074,Rod Lurie
 2771,144340,Paul Weitz
 2772,48217,Patrice Leconte
@@ -3005,7 +2786,6 @@ row_number,movie_id,director_name
 2784,407887,John H. Lee
 2785,17043,John Stainton
 2786,8952,Glenn Ficarra
-2786,8952,John Requa
 2787,62204,Jean-Jacques Annaud
 2788,13435,Denzel Washington
 2789,17187,Michael Hoffman
@@ -3016,16 +2796,13 @@ row_number,movie_id,director_name
 2794,6217,Paul Schrader
 2795,26688,Stewart Hendler
 2796,43867,John Cromwell
-2796,43867,W.S. Van Dyke
 2797,6615,Craig Gillespie
 2798,14574,Mark Herman
 2799,16,Lars von Trier
 2800,39780,Gillian Armstrong
 2801,21612,Abel Ferrara
 2802,36691,Brian Koppelman
-2802,36691,David Levien
 2803,23631,Robert Rodriguez
-2803,23631,Ethan Maniquis
 2804,45324,George Hickenlooper
 2805,12144,Don Bluth
 2806,11658,Kang Je-gyu
@@ -3033,10 +2810,7 @@ row_number,movie_id,director_name
 2808,9552,William Friedkin
 2809,578,Steven Spielberg
 2810,2105,Chris Weitz
-2810,2105,Paul Weitz
-2811,126319,St??phane Aubier
-2811,126319,Vincent Patar
-2811,126319,Benjamin Renner
+2811,126319,Stéphane Aubier
 2812,10136,Michael Ritchie
 2813,67660,Tim Story
 2814,10611,Tim Story
@@ -3045,12 +2819,10 @@ row_number,movie_id,director_name
 2817,860,John Badham
 2818,9281,Peter Weir
 2819,75674,Mike McCoy
-2819,75674,Scott Waugh
 2820,9762,Anne Fletcher
 2821,3179,Mike Judge
 2822,184,Quentin Tarantino
 2823,13335,Jon Hurwitz
-2823,13335,Hayden Schlossberg
 2824,76726,Josh Trank
 2825,10269,Barbra Streisand
 2826,36819,Terry Gilliam
@@ -3060,13 +2832,11 @@ row_number,movie_id,director_name
 2830,9357,Mark Romanek
 2831,13812,John Erick Dowdle
 2832,9030,David Moreau
-2832,9030,Xavier Palud
 2833,19084,Christopher Erskin
 2834,8386,Jesse Dylan
 2835,10437,Brian Henson
 2836,1360,Julie Taymor
 2837,101267,Dan Cutforth
-2837,101267,Jane Lipsitz
 2838,222935,Josh Boone
 2839,10220,John Dahl
 2840,284296,Chris Rock
@@ -3083,7 +2853,6 @@ row_number,movie_id,director_name
 2851,34549,Tim Hill
 2852,57157,Jason Reitman
 2853,1948,Brian Taylor
-2853,1948,Mark Neveldine
 2854,28353,Lionel C. Martin
 2855,46889,Richard LaGravenese
 2856,38093,Sanaa Hamri
@@ -3098,7 +2867,6 @@ row_number,movie_id,director_name
 2865,227719,Dean Israelite
 2866,14299,Darnell Martin
 2867,19419,Scott Alexander
-2867,19419,Larry Karaszewski
 2868,12088,Stuart Gordon
 2869,14799,Christopher Guest
 2870,9466,Woody Allen
@@ -3121,7 +2889,6 @@ row_number,movie_id,director_name
 2887,38448,Neil Jordan
 2888,327,Takeshi Kitano
 2889,9260,Anthony Russo
-2889,9260,Joe Russo
 2890,61337,Sidney Lumet
 2891,13079,Vadim Perelman
 2892,89325,Lawrence Kasdan
@@ -3156,7 +2923,6 @@ row_number,movie_id,director_name
 2921,256092,Brian Trenchard-Smith
 2922,9942,David S. Ward
 2923,10748,Barnaby Thompson
-2923,10748,Oliver Parker
 2924,1817,Joel Schumacher
 2925,10229,Adam Shankman
 2926,687,Tim Robbins
@@ -3171,7 +2937,6 @@ row_number,movie_id,director_name
 2935,167073,John Crowley
 2936,3175,Stanley Kubrick
 2937,14369,Brendan Malloy
-2937,14369,Emmett Malloy
 2938,16888,Reginald Hudlin
 2939,121826,Dustin Hoffman
 2940,10646,Gregory Poirier
@@ -3180,13 +2945,12 @@ row_number,movie_id,director_name
 2943,11184,Bill Condon
 2944,766,Sam Raimi
 2945,20009,Dewey Nicks
-2946,1587,Lasse Hallstr??m
+2946,1587,Lasse Hallström
 2947,30973,Philip Saville
 2948,11109,Mike Leigh
 2949,9027,Daisy von Scherler Mayer
 2950,63020,Mira Nair
 2951,86829,Joel Coen
-2951,86829,Ethan Coen
 2952,11065,Tim Blake Nelson
 2953,13888,William A. Graham
 2954,42345,Martin Ritt
@@ -3200,11 +2964,11 @@ row_number,movie_id,director_name
 2962,14395,Karan Johar
 2963,24137,Oliver Parker
 2964,190847,Ruairi Robinson
-2965,11056,Jaume Balaguer??
+2965,11056,Jaume Balagueró
 2966,62,Stanley Kubrick
 2967,601,Steven Spielberg
 2968,13067,Jon Kasdan
-2969,25379,L??a Pool
+2969,25379,Léa Pool
 2970,88641,Floyd Mutrux
 2971,58051,Sajid Khan
 2972,14877,Christopher Cain
@@ -3222,8 +2986,6 @@ row_number,movie_id,director_name
 2984,16781,Tyler Perry
 2985,11873,Martin Scorsese
 2986,9289,Bernhard Wicki
-2986,9289,Ken Annakin
-2986,9289,Andrew Marton
 2987,10414,Stephen Herek
 2988,1970,Takashi Shimizu
 2989,9614,Dennis Dugan
@@ -3233,7 +2995,6 @@ row_number,movie_id,director_name
 2993,74534,John Madden
 2994,19405,Chuck Sheetz
 2995,9355,George Miller
-2995,9355,George Ogilvie
 2996,10999,Mark L. Lester
 2997,321258,William Brent Bell
 2998,44040,John Erick Dowdle
@@ -3245,15 +3006,11 @@ row_number,movie_id,director_name
 3004,1832,Kevin Smith
 3005,9034,Bob Dolman
 3006,15301,Steven Spielberg
-3006,15301,Joe Dante
-3006,15301,John Landis
-3006,15301,George Miller
 3007,10135,Rowdy Herrington
 3008,26352,Keenen Ivory Wayans
 3009,20616,John Polson
 3010,9794,Greg Coolidge
 3011,15037,Deborah Kaplan
-3011,15037,Harry Elfont
 3012,227,Francis Ford Coppola
 3013,294272,David Lowery
 3014,11336,David Cronenberg
@@ -3267,7 +3024,6 @@ row_number,movie_id,director_name
 3022,14544,Malcolm D. Lee
 3023,11545,Wes Anderson
 3024,42684,Colin Strause
-3024,42684,Greg Strause
 3025,268238,John Madden
 3026,8359,Patricia Rozema
 3027,15648,Mark Rosman
@@ -3297,24 +3053,13 @@ row_number,movie_id,director_name
 3051,37931,Jorma Taccone
 3052,3472,Stephen Frears
 3053,87818,Griffin Dunne
-3053,87818,Peter Farrelly
-3053,87818,Elizabeth Banks
-3053,87818,James Gunn
-3053,87818,Steven Brill
-3053,87818,Brett Ratner
-3053,87818,Steve Carr
-3053,87818,Rusty Cundieff
-3053,87818,James Duffy
-3053,87818,Patrik Forsberg
-3053,87818,Jonathan van Tulleken
-3053,87818,Will Graham
 3054,13160,Jeff Lowell
 3055,88005,Lorene Scafaria
 3056,52067,Miguel Arteta
 3057,73,Tony Kaye
 3058,134597,Marcus Dunstan
 3059,24034,Timothy Bjorklund
-3060,14283,Fran??ois Girard
+3060,14283,François Girard
 3061,404,David Lynch
 3062,13201,Scott Kalvert
 3063,209403,Jason Bateman
@@ -3325,7 +3070,6 @@ row_number,movie_id,director_name
 3068,9952,Werner Herzog
 3069,256924,Dan Fogelman
 3070,82532,Jay Duplass
-3070,82532,Mark Duplass
 3071,41110,Luca Guadagnino
 3072,134371,John Putch
 3073,2088,Peter Medak
@@ -3371,7 +3115,6 @@ row_number,movie_id,director_name
 3113,184374,Rafa Lara
 3114,268171,Michael Radford
 3115,78149,Alan Smithee
-3115,78149,Arthur Hiller
 3116,24663,Michael Meredith
 3117,39037,Julio DePietro
 3118,22805,Katherine Dieckmann
@@ -3379,14 +3122,13 @@ row_number,movie_id,director_name
 3120,245846,Kim Farrant
 3121,25186,Marcus Raboy
 3122,15017,Scott Marshall Smith
-3123,12245,??lex de la Iglesia
+3123,12245,Álex de la Iglesia
 3124,49787,Andrew Traucki
 3125,16358,Michael Clancy
 3126,7006,Patrick Lussier
 3127,66767,Robert Adetuyi
 3128,17622,Kari Skogland
 3129,283671,Taedong Park
-3129,283671,Mauricio De la Orta
 3130,18516,Paul Schrader
 3131,217708,Benedikt Erlingsson
 3132,42057,Gurinder Chadha
@@ -3397,7 +3139,7 @@ row_number,movie_id,director_name
 3137,78383,Douglas Aarniokoski
 3138,43090,William Phillips
 3139,16614,Greg Mottola
-3140,9700,Andy Garc??a
+3140,9700,Andy García
 3141,10471,Steve Carr
 3142,250066,Sarik Andreasyan
 3143,667,Lewis Gilbert
@@ -3406,7 +3148,7 @@ row_number,movie_id,director_name
 3146,10306,Gary Sherman
 3147,106845,Valeri Milev
 3148,11576,Stanley Kramer
-3149,219,Pedro Almod??var
+3149,219,Pedro Almodóvar
 3150,11827,Gerald Potterton
 3151,22820,Jared Hess
 3152,31174,Richard Loncraine
@@ -3450,7 +3192,6 @@ row_number,movie_id,director_name
 3190,67675,Kevin Tancharoen
 3191,27329,Chatrichalerm Yukol
 3192,29514,George A. Romero
-3192,29514,Dario Argento
 3193,250349,Eric Lavaine
 3194,12454,Mike Leigh
 3195,39806,Marc Forby
@@ -3458,13 +3199,13 @@ row_number,movie_id,director_name
 3197,8883,Ole Christian Madsen
 3198,17926,Meiert Avis
 3199,291081,Julian Jarrold
-3200,41248,Andr?? T??chin??
+3200,41248,André Téchiné
 3201,25968,Emily Young
 3202,9671,Peter Faiman
 3203,52010,Martyn Pick
 3204,11588,Roland Suso Richter
 3205,43418,Jeremy Sims
-3206,71157,Ma??wenn
+3206,71157,Maïwenn
 3207,13483,Joby Harold
 3208,333355,Genndy Tartakovsky
 3209,327833,Ekachai Uekrongtham
@@ -3488,10 +3229,8 @@ row_number,movie_id,director_name
 3227,1116,Ken Loach
 3228,185008,Ayan Mukherjee
 3229,11620,Mervyn LeRoy
-3229,11620,Anthony Mann
 3230,14353,Darren Lynn Bousman
 3231,11818,Serdar Akar
-3231,11818,Sadullah ??ent??rk
 3232,680,Quentin Tarantino
 3233,11176,James Frawley
 3234,242582,Dan Gilroy
@@ -3499,7 +3238,6 @@ row_number,movie_id,director_name
 3236,15121,Robert Wise
 3237,2619,Ron Howard
 3238,773,Jonathan Dayton
-3238,773,Valerie Faris
 3239,235,Rob Reiner
 3240,170,Danny Boyle
 3241,14114,Chris Stokes
@@ -3533,19 +3271,16 @@ row_number,movie_id,director_name
 3269,14629,Fina Torres
 3270,8293,James Ivory
 3271,291270,Charlie Kaufman
-3271,291270,Duke Johnson
 3272,44009,Mike Leigh
-3273,1958,Fran??ois Ozon
+3273,1958,François Ozon
 3274,13154,Mark L. Lester
 3275,26618,David Dobkin
 3276,43923,Ryan Fleck
-3276,43923,Anna Boden
 3277,46138,Nigel Cole
 3278,45791,Anand Tucker
 3279,26306,Steve James
 3280,110683,Michael Winner
 3281,26963,Tomm Moore
-3281,26963,Nora Twomey
 3282,198277,John Carney
 3283,7870,David Jacobson
 3284,13072,Michael Corrente
@@ -3554,21 +3289,20 @@ row_number,movie_id,director_name
 3287,17044,David Leland
 3288,10288,Andrew Currie
 3289,12183,Luke Wilson
-3289,12183,Andrew Wilson
 3290,44147,Jonathan Lynn
-3291,12192,Marc Sch??lermann
+3291,12192,Marc Schölermann
 3292,36597,Coky Giedroyc
 3293,13197,Robert Moresco
 3294,10913,Thomas Vinterberg
 3295,251321,Claudia Llosa
-3296,149,Katsuhiro ??tomo
+3296,149,Katsuhiro Ōtomo
 3297,10425,John Herzfeld
-3298,49081,Charles Binam??
+3298,49081,Charles Binamé
 3299,256687,Keith Parmer
 3300,220488,Dennie Gordon
 3301,1544,Ol Parker
 3302,374461,Bruce Beresford
-3303,302,Fran??ois Ozon
+3303,302,François Ozon
 3304,182873,James Nunn
 3305,21512,David Webb Peoples
 3306,389425,Michael Winnick
@@ -3590,11 +3324,10 @@ row_number,movie_id,director_name
 3322,55903,Claude Miller
 3323,2577,Michael Winterbottom
 3324,103903,Sacha Bennett
-3325,73873,Rodrigo Garc??a
+3325,73873,Rodrigo García
 3326,312113,Jeta Amata
 3327,14165,Siddharth Anand
 3328,2011,Vincent Paronnaud
-3328,2011,Marjane Satrapi
 3329,45650,Joe Dante
 3330,7735,Dennis Gansel
 3331,301365,Nicolas Winding Refn
@@ -3621,9 +3354,7 @@ row_number,movie_id,director_name
 3352,10117,Craig R. Baxley
 3353,9392,Neil Marshall
 3354,24977,James D. Stern
-3354,24977,Don Kempf
 3355,79316,Matt Bettinelli-Olpin
-3355,79316,Tyler Gillett
 3356,2074,David O. Russell
 3357,1696,Rob Zombie
 3358,308639,Rick Famuyiwa
@@ -3631,7 +3362,6 @@ row_number,movie_id,director_name
 3360,2662,Rob Zombie
 3361,77156,Sharron Miller
 3362,12573,Joel Coen
-3362,12573,Ethan Coen
 3363,44718,Aaron Schneider
 3364,11342,Steve Miner
 3365,241771,Gina Prince-Bythewood
@@ -3646,7 +3376,6 @@ row_number,movie_id,director_name
 3374,4251,Yash Chopra
 3375,12400,David Mamet
 3376,39053,Jay Duplass
-3376,39053,Mark Duplass
 3377,104896,Kevin Brodie
 3378,14112,Paul Schrader
 3379,12271,George Hickenlooper
@@ -3654,9 +3383,9 @@ row_number,movie_id,director_name
 3381,226354,John Stephenson
 3382,48620,Tim Chambers
 3383,33676,Curtis Hanson
-3384,37080,Rodrigo Garc??a
+3384,37080,Rodrigo García
 3385,25388,Dick Richards
-3386,11687,Jean-Marie Poir??
+3386,11687,Jean-Marie Poiré
 3387,39210,Sofia Coppola
 3388,30128,Bob Gosse
 3389,31535,Alex Zamm
@@ -3666,7 +3395,6 @@ row_number,movie_id,director_name
 3393,24985,Thaddeus O'Sullivan
 3394,306745,Peter Sollett
 3395,47088,Shari Springer Berman
-3395,47088,Robert Pulcini
 3396,110402,Aleksey German
 3397,27004,Stephen Milburn Anderson
 3398,15013,Richard E. Grant
@@ -3674,7 +3402,6 @@ row_number,movie_id,director_name
 3400,277519,David Lam
 3401,78381,Francis Ford Coppola
 3402,164372,Vladlen Barbe
-3402,164372,Maksim Sveshnikov
 3403,294512,Richard Rich
 3404,8879,Clint Eastwood
 3405,13001,Robert C. Cooper
@@ -3682,14 +3409,14 @@ row_number,movie_id,director_name
 3407,13649,Kenny Ortega
 3408,325373,Kim Nguyen
 3409,334527,Jackie Earle Haley
-3410,2211,Max F??rberb??ck
+3410,2211,Max Färberböck
 3411,13919,Arie Posin
 3412,14576,Damian Nieman
 3413,82505,Mark Tonderai
 3414,46738,Denis Villeneuve
 3415,38970,Gabriele Muccino
 3416,41009,Ian Fitzgibbon
-3417,7347,Jos?? Padilha
+3417,7347,José Padilha
 3418,250546,John R. Leonetti
 3419,38415,Rachel Perkins
 3420,650,John Singleton
@@ -3723,7 +3450,6 @@ row_number,movie_id,director_name
 3448,433,Robert Stevenson
 3449,16619,Robert Redford
 3450,1725,Robert Wise
-3450,1725,Jerome Robbins
 3451,11977,Harold Ramis
 3452,20322,Gary Hardwick
 3453,16158,Rick Famuyiwa
@@ -3748,7 +3474,6 @@ row_number,movie_id,director_name
 3472,12509,Ed Harris
 3473,15256,Risa Bramon Garcia
 3474,83686,Brian Klugman
-3474,83686,Lee Sternthal
 3475,80304,Matt Piedmont
 3476,28053,Raymond De Felitta
 3477,67913,John Michael McDonagh
@@ -3756,7 +3481,6 @@ row_number,movie_id,director_name
 3479,1443,Sofia Coppola
 3480,8545,Mark Herman
 3481,19556,Zach Cregger
-3481,19556,Trevor Moore
 3482,231576,Zach Braff
 3483,16172,Mark Tarlov
 3484,13403,John Cameron Mitchell
@@ -3787,7 +3511,7 @@ row_number,movie_id,director_name
 3509,58626,William Kaufman
 3510,183894,Jim O'Hanlon
 3511,837,David Cronenberg
-3512,1555,C??dric Klapisch
+3512,1555,Cédric Klapisch
 3513,244783,Kate Barker-Froyland
 3514,16564,Martin Koolhoven
 3515,168027,Charles Matthau
@@ -3799,8 +3523,7 @@ row_number,movie_id,director_name
 3521,57022,John Sayles
 3522,14351,Preston A. Whitmore II
 3523,147767,Ashish R. Mohan
-3524,10664,Jaume Balaguer??
-3524,10664,Paco Plaza
+3524,10664,Jaume Balagueró
 3525,55567,Stewart Raffill
 3526,9277,George Roy Hill
 3527,9443,Hugh Hudson
@@ -3812,12 +3535,12 @@ row_number,movie_id,director_name
 3533,11889,Richard Eyre
 3534,33155,William Sachs
 3535,5528,Christophe Barratier
-3536,321,??mile Gaudreault
+3536,321,Émile Gaudreault
 3537,4997,James Cox
 3538,925,Spike Lee
 3539,27451,James Toback
-3540,73532,Aki Kaurism??ki
-3541,979,Gaspar No??
+3540,73532,Aki Kaurismäki
+3541,979,Gaspar Noé
 3542,193722,Hitoshi Matsumoto
 3543,7913,Rakeysh Omprakash Mehra
 3544,253253,Collin Schiffli
@@ -3836,12 +3559,10 @@ row_number,movie_id,director_name
 3557,9012,Jeff Tremaine
 3558,345911,David F. Sandberg
 3559,72571,Henry Joost
-3559,72571,Ariel Schulman
 3560,242512,Stiles White
 3561,10072,Chuck Russell
 3562,211954,Eugenio Derbez
 3563,82990,Henry Joost
-3563,82990,Ariel Schulman
 3564,29912,Henry Koster
 3565,11843,Blake Edwards
 3566,11284,Rachel Talalay
@@ -3849,16 +3570,14 @@ row_number,movie_id,director_name
 3568,173,Richard Fleischer
 3569,227348,Christopher B. Landon
 3570,1955,David Lynch
-3571,152532,Jean-Marc Vall??e
+3571,152532,Jean-Marc Vallée
 3572,243940,David Gelb
 3573,77,Christopher Nolan
 3574,157547,Mike Flanagan
 3575,2295,Kevin Smith
 3576,71,Stephen Daldry
 3577,147773,Nat Faxon
-3577,147773,Jim Rash
 3578,16096,Doug McHenry
-3578,16096,George Jackson
 3579,24266,George T. Miller
 3580,16508,Maurice Joyce
 3581,2895,Robert Duvall
@@ -3870,14 +3589,13 @@ row_number,movie_id,director_name
 3587,235271,Bille Woodruff
 3588,45153,Kasi Lemmons
 3589,284293,Richard Glatzer
-3589,284293,Wash Westmoreland
 3590,24973,Michael Curtiz
 3591,21610,Bruce Malmuth
 3592,10283,Rob Hedden
 3593,8346,Joel Zwick
 3594,122081,Harmony Korine
 3595,10987,Joe Chappelle
-3596,1391,Alfonso Cuar??n
+3596,1391,Alfonso Cuarón
 3597,747,Edgar Wright
 3598,14745,Mickey Liddell
 3599,26748,John Sayles
@@ -3885,7 +3603,7 @@ row_number,movie_id,director_name
 3601,24913,Fred Walton
 3602,13776,Barry Levinson
 3603,14854,Steve Carver
-3604,50357,Gonzalo L??pez-Gallego
+3604,50357,Gonzalo López-Gallego
 3605,13090,Christine Jeffs
 3606,192141,John Erick Dowdle
 3607,16441,Don Coscarelli
@@ -3895,7 +3613,6 @@ row_number,movie_id,director_name
 3611,22649,Frank Borzage
 3612,378200,Bille Woodruff
 3613,20455,Mamoru Hosoda
-3613,20455,Shigeyasu Yamauchi
 3614,13193,Brian Dannelly
 3615,11042,Denys Arcand
 3616,10786,Richard Lester
@@ -3909,7 +3626,6 @@ row_number,movie_id,director_name
 3624,17431,Duncan Jones
 3625,21014,Scott Marshall
 3626,78394,Ronan Chapalain
-3626,78394,Pascal Vuong
 3627,10217,Atom Egoyan
 3628,46332,Xavier Beauvois
 3629,13996,Randall Miller
@@ -3923,7 +3639,6 @@ row_number,movie_id,director_name
 3637,245916,Michael Cuesta
 3638,27585,John Cameron Mitchell
 3639,1415,Fenton Bailey
-3639,1415,Randy Barbato
 3640,313922,Jeremy Saulnier
 3641,14474,Billy Kent
 3642,199933,James Manera
@@ -3941,7 +3656,7 @@ row_number,movie_id,director_name
 3654,11600,Brian De Palma
 3655,71547,Klaus Menzel
 3656,57876,Oren Peli
-3657,77495,Jaume Balaguer??
+3657,77495,Jaume Balagueró
 3658,13849,Paul Andrew Williams
 3659,14849,Stephen Herek
 3660,12486,Bob Saget
@@ -3955,7 +3670,7 @@ row_number,movie_id,director_name
 3669,113406,Marcia Bennett
 3671,290825,Kevin Smith
 3672,361159,Stanton Barrett
-3673,12555,Ji???? Menzel
+3673,12555,Jiří Menzel
 3674,31175,Fatih Akin
 3675,12498,Billy Bob Thornton
 3676,77949,Nick Murphy 
@@ -3969,7 +3684,6 @@ row_number,movie_id,director_name
 3684,11577,Sam Peckinpah
 3685,77987,Nicolas Winding Refn
 3686,40185,Christophe Ali
-3686,40185,Nicolas Bonilauri
 3687,68202,Gabriela Tagliavini
 3688,8981,Shona Auerbach
 3689,10914,Leonard Farlinger
@@ -3984,27 +3698,25 @@ row_number,movie_id,director_name
 3698,10339,John Huston
 3699,1429,Spike Lee
 3700,9303,Lilly Wachowski
-3700,9303,Lana Wachowski
 3701,641,Darren Aronofsky
 3702,27686,Walter Lang
 3703,65749,Carlos Saura
 3704,6106,Oliver Stone
 3705,252680,Jon Erwin
-3705,252680,Andrew Erwin
 3706,141,Richard Kelly
-3707,66607,Beto G??mez
+3707,66607,Beto Gómez
 3708,17139,Mike van Diem
-3709,12079,Jonas ??kerlund
+3709,12079,Jonas Åkerlund
 3710,39800,Todd Solondz
 3711,4550,Park Chan-wook
-3712,62116,Ren?? F??ret
+3712,62116,René Féret
 3713,9991,Barry Skolnick
 3714,13807,Johnnie To
 3715,68818,Mateo Gil
 3716,12093,Lukas Moodysson
 3717,36419,Agnieszka Wojtowicz-Vosloo
 3718,281730,Kabir Sadanand
-3719,510,Milo?? Forman
+3719,510,Miloš Forman
 3720,362105,Peter DeLuise
 3721,10970,Mel Brooks
 3722,375290,Raja Menon
@@ -4015,7 +3727,6 @@ row_number,movie_id,director_name
 3727,29920,Daniel Espinosa
 3728,1088,Niki Caro
 3730,34069,Ivan Engler
-3730,34069,Ralph Etter
 3731,10947,Kenny Ortega
 3732,47452,Richard Kwietniowski
 3733,3040,Timur Bekmambetov
@@ -4037,7 +3748,6 @@ row_number,movie_id,director_name
 3749,8337,John Carpenter
 3750,5925,John Sturges
 3751,8357,William Arntz
-3751,8357,Betsy Chasse
 3752,146203,Ed Gass-Donnelly
 3753,85350,Richard Linklater
 3754,512,Woody Allen
@@ -4053,9 +3763,6 @@ row_number,movie_id,director_name
 3764,2370,Alfred Hitchcock
 3765,9809,Bob Odenkirk
 3766,5,Allison Anders
-3766,5,Alexandre Rockwell
-3766,5,Robert Rodriguez
-3766,5,Quentin Tarantino
 3767,11013,Steven Shainberg
 3768,19153,Rick de Oliveira
 3769,10132,Oliver Stone
@@ -4077,16 +3784,16 @@ row_number,movie_id,director_name
 3785,48309,Renny Harlin
 3786,27723,Robert Lee King
 3787,20468,Kevin Allen
-3788,242575,Jorge Ram??rez Su??rez
+3788,242575,Jorge Ramírez Suárez
 3789,44945,David Schwimmer
 3790,29122,Barry Levinson
 3791,125123,Sam Miller
 3792,111190,Anne Fontaine
 3793,133575,Dan Ireland
-3794,54580,Fernando Le??n de Aranoa
+3794,54580,Fernando León de Aranoa
 3795,52015,Jim Mickle
 3796,34941,Stephen T. Kay
-3797,227975,Karim A??nouz
+3797,227975,Karim Aïnouz
 3798,60422,Sam Levinson
 3799,81390,Julian Gilbey
 3800,10981,Vincenzo Natali
@@ -4094,8 +3801,6 @@ row_number,movie_id,director_name
 3802,14902,Peter H. Hunt
 3803,121676,Ruba Nadda
 3804,22301,James Whale
-3804,22301,Howard Hughes
-3804,22301,Edmund Goulding
 3805,20065,Edward Burns
 3806,257087,Phil Joanou
 3807,46420,Sean Byrne
@@ -4112,17 +3817,14 @@ row_number,movie_id,director_name
 3818,29262,Andrucha Waddington
 3819,34769,Peter Stebbings
 3820,35032,Vincente Minnelli
-3821,5178,Dagur K??ri
+3821,5178,Dagur Kári
 3822,8618,Nicholas Hytner
 3823,3116,John Schlesinger
 3824,9427,Peter Cattaneo
 3825,813,Jerry Zucker
-3825,813,Jim Abrahams
-3825,813,David Zucker
 3826,352978,Kevin Carraway
 3827,10634,F. Gary Gray
 3828,9516,Albert Hughes
-3828,9516,Allen Hughes
 3829,16288,Michael Gornick
 3830,23330,Sam Peckinpah
 3831,18900,Richard Brooks
@@ -4133,13 +3835,13 @@ row_number,movie_id,director_name
 3836,40505,Michael Martin
 3837,11363,Edward Burns
 3838,3033,Bill Condon
-3839,25376,Juan Jos?? Campanella
+3839,25376,Juan José Campanella
 3840,22007,Gideon Raff
 3841,765,Sam Raimi
 3842,10615,Louis C.K.
 3843,205321,Anthony C. Ferrante
 3844,89540,Salvador Carrasco
-3845,46146,Andr?? ??vredal
+3845,46146,André Øvredal
 3846,38007,Robert Cary
 3847,14256,Adam Rapp
 3848,540,Angela Robinson
@@ -4156,13 +3858,11 @@ row_number,movie_id,director_name
 3859,241766,Antonio Simoncini
 3860,12535,Mel Brooks
 3861,1667,Luc Jacquet
-3861,1667,J??r??me Maison
 3862,50839,J.C. Chandor
 3863,86549,Eldar Rapaport
 3864,13973,Clark Gregg
 3865,244786,Damien Chazelle
 3866,598,Fernando Meirelles
-3866,598,K??tia Lund
 3867,11129,Justin Kerrigan
 3868,75861,Nathan Frankowski
 3869,13551,Karen Moncrieff
@@ -4171,7 +3871,6 @@ row_number,movie_id,director_name
 3872,12586,Alejandro Monteverde
 3873,11564,Mark L. Lester
 3874,301748,Jonathan Silverman
-3874,301748,Jennifer Finnigan
 3875,108346,Eric Styles
 3876,8841,Laurent Cantet
 3877,805,Roman Polanski
@@ -4195,12 +3894,10 @@ row_number,movie_id,director_name
 3895,158015,James DeMonaco
 3896,82507,Scott Derrickson
 3897,20337,Martin Lawrence
-3897,20337,David Raynr
 3898,261,Richard Brooks
 3899,1685,Ted Post
 3900,20737,Charles Martin Smith
 3901,10991,Michael Haigney
-3901,10991,Kunihiko Yuyama
 3902,10225,Tom McLoughlin
 3903,826,David Lean
 3904,34086,Patrick Read Johnson
@@ -4216,8 +3913,7 @@ row_number,movie_id,director_name
 3914,821,Stanley Kramer
 3915,53862,David Raynr
 3916,3089,Howard Hawks
-3916,3089,Arthur Rosson
-3917,30139,Nnegest Likk??
+3917,30139,Nnegest Likké
 3918,132344,Richard Linklater
 3919,15582,Christopher Leitch
 3920,15158,Don Coscarelli
@@ -4242,9 +3938,8 @@ row_number,movie_id,director_name
 3939,246403,Kevin Smith
 3940,670,Park Chan-wook
 3941,35691,David Nixon
-3941,35691,Patrick Doughtie
 3942,49010,Jason Eisener
-3943,317930,Enrique Begn??
+3943,317930,Enrique Begné
 3944,11229,Matthew Bright
 3945,22488,Michael Landon Jr.
 3946,24469,Andrea Arnold
@@ -4253,10 +3948,8 @@ row_number,movie_id,director_name
 3949,84174,Leslye Headland
 3950,34099,Bobby Roth
 3951,79940,Tim Heidecker
-3951,79940,Eric Wareheim
 3952,342,Marco Kreuzpaintner
 3953,281230,Michael Worth
-3953,281230,Kate Connor
 3954,38033,Deon Taylor
 3955,100975,Jason Alexander
 3956,38541,Xavier Gens
@@ -4265,15 +3958,13 @@ row_number,movie_id,director_name
 3959,27404,Philip Zlotorynski
 3960,170480,Lance Kawas
 3961,71866,Francesca Gregorini
-3961,71866,Tatiana von Furstenberg
-3962,192210,M??rcio Garcia
+3962,192210,Márcio Garcia
 3963,180296,David Wain
 3964,157058,Craig Moss
 3965,70006,Michael Jai White
 3966,26039,John Boorman
 3967,79587,Paolo Monico
 3968,176077,Youssef Delara
-3968,176077,Victor Teran
 3969,260947,Darin Scott
 3970,342502,Christian Sesma
 3971,191229,Monte Hellman
@@ -4284,11 +3975,6 @@ row_number,movie_id,director_name
 3976,325173,Isaac Florentine
 3978,351043,Michael Polish
 3979,43942,Heidi Ewing
-3979,43942,Rachel Grady
-3979,43942,Morgan Spurlock
-3979,43942,Seth Gordon
-3979,43942,Alex Gibney
-3979,43942,Eugene Jarecki
 3980,10226,Alexandre Aja
 3981,66942,Leon Ford
 3982,356483,Hank Braxtan
@@ -4303,13 +3989,12 @@ row_number,movie_id,director_name
 3991,17264,Carroll Ballard
 3992,346081,Rohit Jugraj
 3993,16016,Kresten Vestbjerg Andersen
-3993,16016,Thorbj??rn Christoffersen
 3994,15875,John Ford
 3995,5900,Alex van Warmerdam
 3996,43306,Victor Fleming
 3997,11072,Mel Brooks
 3998,9730,Joseph Zito
-3999,209274,Pawe?? Pawlikowski
+3999,209274,Paweł Pawlikowski
 4000,26371,James Ivory
 4001,14137,Frank Sebastiano
 4002,291,Stacy Peralta
@@ -4317,12 +4002,9 @@ row_number,movie_id,director_name
 4004,33106,Ning Hao
 4005,8875,Tony Giglio
 4006,872,Stanley Donen
-4006,872,Gene Kelly
 4007,72914,Joe Cross
-4007,72914,Kurt Engfehr
 4008,139038,Michael Tiddes
 4009,126509,John Sullivan
-4009,126509,Dinesh D'Souza
 4010,9591,Tom Hanks
 4011,10676,Tommy Lee Wallace
 4012,1687,Don Taylor
@@ -4331,7 +4013,7 @@ row_number,movie_id,director_name
 4015,468,Gus Van Sant
 4016,401,Zach Braff
 4017,76,Richard Linklater
-4018,50538,??ric Tessier
+4018,50538,Éric Tessier
 4019,25636,Alison Maclean
 4020,19316,Alice Wu
 4021,21074,Sarah Gavron
@@ -4343,7 +4025,6 @@ row_number,movie_id,director_name
 4027,116584,Tim Boxell
 4028,46849,Michael D. Sellers
 4029,40428,Reed Cowan
-4029,40428,Steven Greenstreet
 4030,17334,James Dodson
 4031,1698,Stefan Ruzowitzky
 4032,20764,Alex Rivera
@@ -4365,17 +4046,6 @@ row_number,movie_id,director_name
 4048,283384,Jason Stone
 4049,19933,Jerry Rees
 4050,756,David Hand
-4050,756,James Algar
-4050,756,Samuel Armstrong
-4050,756,Ben Sharpsteen
-4050,756,William Roberts
-4050,756,Paul Satterfield
-4050,756,Hamilton Luske
-4050,756,Jim Handley
-4050,756,Ford Beebe
-4050,756,T. Hee
-4050,756,Wilfred Jackson
-4050,756,Norman Ferguson
 4051,433715,Jaco Booyens
 4052,9728,Steve Miner
 4053,9731,Danny Steinmann
@@ -4389,16 +4059,14 @@ row_number,movie_id,director_name
 4061,16205,Jon Knautz
 4062,887,William Wyler
 4063,9517,Larry Clark
-4064,6007,Petter N??ss
+4064,6007,Petter Næss
 4065,364083,Robert Fontaine
-4066,8329,Jaume Balaguer??
-4066,8329,Paco Plaza
+4066,8329,Jaume Balagueró
 4067,69640,Patricia Cardoso
 4069,347548,Neil Mcenery-West
 4070,322443,Anthony O'Brien
 4071,657,Terence Young
 4072,28165,Lloyd Kaufman
-4072,28165,Michael Herz
 4073,11561,Woody Allen
 4074,270303,David Robert Mitchell
 4075,11624,Woody Allen
@@ -4407,7 +4075,6 @@ row_number,movie_id,director_name
 4078,12207,Liu Chia-Liang
 4079,226,Kimberly Peirce
 4080,92182,Chris Kentis
-4080,92182,Laura Lau
 4081,582,Florian Henckel von Donnersmarck
 4082,72213,Alex Kendrick
 4083,990,Robert Rossen
@@ -4415,9 +4082,8 @@ row_number,movie_id,director_name
 4085,9662,Sylvain Chomet
 4086,20862,Chris Eyre
 4087,2771,Shari Springer Berman
-4087,2771,Robert Pulcini
 4088,80,Richard Linklater
-4089,55,Alejandro Gonz??lez I????rritu
+4089,55,Alejandro González Iñárritu
 4090,11023,Catherine Hardwicke
 4091,33667,Elia Kazan
 4092,39013,Debra Granik
@@ -4438,11 +4104,9 @@ row_number,movie_id,director_name
 4108,14284,David Sington
 4109,57120,Kelly Reichardt
 4110,12228,Fenton Bailey
-4110,12228,Randy Barbato
 4111,22617,Bob Giraldi
 4112,55561,Jill Sprecher
 4113,42889,Huck Botko
-4113,42889,Andrew Gurland
 4114,10656,Luc Besson
 4115,24363,David Duchovny
 4116,13121,Mitchell Lichtenstein
@@ -4459,25 +4123,22 @@ row_number,movie_id,director_name
 4129,7515,Hunter Richards
 4130,13075,Laurie Collyer
 4131,335866,Aaron Hann
-4131,335866,Mario Miscione
 4132,13510,James Watkins
 4133,215881,Catherine Hardwicke
 4134,18238,Phil Claydon
 4135,22600,Ralph Ziman
 4136,12612,John Simpson
 4137,50698,Colin Minihan
-4137,50698,Stuart Ortiz
 4138,115210,Conor McMahon
 4139,34335,Chris Shadley
 4140,459488,Simon Napier-Bell
 4141,11302,Woody Allen
 4142,119458,Simon Yin
 4143,20406,Jeff Crook
-4143,20406,Josh Crook
 4144,3766,Orson Welles
 4145,18616,Dave Payne
 4146,18808,James Cox
-4147,95755,Jonas ??kerlund
+4147,95755,Jonas Åkerlund
 4148,198062,Brad Copeland
 4149,188652,Paul Bunnell
 4150,174311,Phil Morrison
@@ -4492,11 +4153,10 @@ row_number,movie_id,director_name
 4159,21309,Tim Hunter
 4160,32235,Michael Polish
 4161,329540,William Kaufman
-4162,26388,Rodrigo Cort??s
+4162,26388,Rodrigo Cortés
 4163,49020,Richard Ayoade
 4164,159037,Jehane Noujaim
 4165,12838,Jean-Marc Barr
-4165,12838,Pascal Arnold
 4166,157293,Remo D'Souza
 4167,14048,James Marsh
 4168,356987,John Laing
@@ -4528,7 +4188,7 @@ row_number,movie_id,director_name
 4194,1999,Todd Field
 4195,43947,Steven R. Monroe
 4196,24066,Mark Illsley
-4197,9709,Pawe?? Pawlikowski
+4197,9709,Paweł Pawlikowski
 4198,191714,Ritesh Batra
 4199,25312,Sally Potter
 4200,34106,Frank Capra
@@ -4538,11 +4198,11 @@ row_number,movie_id,director_name
 4204,27455,Dave Meyers
 4205,66468,David M. Matthews
 4206,7973,Nadine Labaki
-4207,283686,Llu??s Qu??lez
+4207,283686,Lluís Quílez
 4208,15976,Eytan Fox
 4209,592,Francis Ford Coppola
 4210,74084,Romesh Sharma
-4211,1651,Fran??ois Truffaut
+4211,1651,François Truffaut
 4212,25428,Adam Goldberg
 4213,298584,Travis Zariwny
 4214,10758,Adrienne Shelly
@@ -4557,7 +4217,7 @@ row_number,movie_id,director_name
 4223,9464,Vincent Gallo
 4224,49018,James Wan
 4225,13820,Alex Cox
-4226,18079,Fabi??n Bielinsky
+4226,18079,Fabián Bielinsky
 4227,127918,Dror Moreh
 4228,17113,Rebecca Miller
 4229,129139,Maggie Carey
@@ -4574,7 +4234,6 @@ row_number,movie_id,director_name
 4240,1961,Bruce Campbell
 4241,51820,Mark Brown
 4242,291362,Adam Carolla
-4242,291362,Kevin Hench
 4243,30082,Ira Sachs
 4244,72913,John Sayles
 4245,23963,Bruce McDonald
@@ -4596,7 +4255,6 @@ row_number,movie_id,director_name
 4262,48463,Zak Penn
 4263,394047,Alex Ranarivelo
 4264,312791,Jon Knautz
-4264,312791,Trevor Matthews
 4265,266034,Mathieu Amalric
 4266,280381,David Worth
 4267,2661,Leslie H. Martinson
@@ -4609,7 +4267,6 @@ row_number,movie_id,director_name
 4274,100275,Boris Rodriguez
 4275,295914,Sadyk Sher-Niyaz
 4276,42033,Paul Donovan
-4276,42033,Digby Cook
 4277,19187,Jonathan Kesselman
 4278,46415,Arjun Sablok
 4279,38570,Craig Moss
@@ -4619,7 +4276,6 @@ row_number,movie_id,director_name
 4283,28580,Billy Wilder
 4284,23730,Douglas Cheek
 4285,84197,Michael D. Olmos
-4285,84197,Youssef Delara
 4286,46256,Deryck Broom
 4287,19997,Henry Hathaway
 4288,43266,John Ford
@@ -4639,13 +4295,12 @@ row_number,movie_id,director_name
 4302,429,Sergio Leone
 4303,310569,Anna Muylaert
 4304,98369,Steve Taylor
-4306,89750,L??a Pool
+4306,89750,Léa Pool
 4307,49951,James David Pasternak
 4308,86331,Laurent Bouhnik
 4309,355629,Tom Sanchez
 4310,16433,David Caffrey
 4311,15544,Adam Jay Epstein
-4311,15544,Andrew Jacobson
 4312,43884,Michael Curtiz
 4313,107315,Justin Thomas Ostensen
 4315,13064,Rob Bowman
@@ -4660,7 +4315,6 @@ row_number,movie_id,director_name
 4325,50037,Panos Cosmatos
 4326,94329,Gareth Evans
 4327,53502,Matthew R. Anderson
-4327,53502,Edward Conna
 4328,202604,Joe Marino
 4329,289,Michael Curtiz
 4330,27374,Joel Anderson
@@ -4691,7 +4345,6 @@ row_number,movie_id,director_name
 4355,113947,Ben Lewin
 4356,18570,Robert Kenner
 4357,83860,Andrew Erwin
-4357,83860,Jon Erwin 
 4358,41469,Brad Anderson
 4359,244772,Craig Johnson
 4360,50837,Sean Durkin
@@ -4711,22 +4364,16 @@ row_number,movie_id,director_name
 4375,46989,Karen Moncrieff
 4376,192132,Gia Coppola
 4377,24424,Scandar Copti
-4377,24424,Yaron Shani
 4378,13198,Goran Dukic
 4379,244267,Mike Cahill
 4380,21413,Kyle Rankin
-4380,21413,Efram Potelle
 4381,123678,Joshua Oppenheimer
-4381,123678,Christine Cynn
-4381,123678,Anonymous
 4382,13362,Alex Gibney
 4383,39183,Paul Crowder
-4383,39183,John Dower
 4384,62402,Rohit Jagessar
 4385,206412,Griffin Dunne
 4386,201132,Anthony Powell
 4387,251471,Kief Davidson
-4387,251471,Daniel Junge
 4388,112456,Johnny Remo
 4389,20296,Vivek Agnihotri
 4390,25983,Ti West
@@ -4739,7 +4386,6 @@ row_number,movie_id,director_name
 4397,18206,Eric Nicholas
 4398,320146,Benjamin Dickinson
 4399,13856,Hal Haberman
-4399,13856,Jeremy Passmore
 4400,219716,Darren Stein
 4402,56491,Brian Trenchard-Smith
 4403,99826,Frank Whaley
@@ -4747,7 +4393,6 @@ row_number,movie_id,director_name
 4406,19344,Katherine Brooks
 4407,242083,David Cross
 4408,18869,Randall Rubin
-4408,18869,Jon Schroder
 4409,26673,Robert Bennett
 4410,41830,Guy Hamilton
 4411,37694,Mary Pat Kelly
@@ -4775,21 +4420,12 @@ row_number,movie_id,director_name
 4433,91070,Kat Coiro
 4434,2009,Cristian Mungiu
 4435,323270,Joseph Graham
-4435,323270,Brian Dorton
-4435,323270,Lee Matthews
-4435,323270,Manuel Mar??n
 4436,2652,David Slade
 4437,9813,Jamie Babbit
 4438,60421,Maryam Keshavarz
 4439,157354,Ryan Coogler
 4440,127867,Ramaa Mosley
 4441,3170,David Hand
-4441,3170,James Algar
-4441,3170,Samuel Armstrong
-4441,3170,William Roberts
-4441,3170,Paul Satterfield
-4441,3170,Graham Heid
-4441,3170,Norman Wright
 4442,14014,Charles Herman-Wurmfeld
 4443,15708,C. Jay Cox
 4444,146882,Mariette Monpierre
@@ -4817,10 +4453,8 @@ row_number,movie_id,director_name
 4467,838,George Lucas
 4468,40862,Robert Greenwald
 4469,13158,Dave Willis
-4469,13158,Matt Maiellaro
 4470,84332,Colin Trevorrow
 4471,74510,Tim Story
-4471,74510,Leslie Small
 4472,74725,Ben Wheatley
 4473,58428,Ti West
 4474,8416,Bernardo Bertolucci
@@ -4836,7 +4470,6 @@ row_number,movie_id,director_name
 4484,26837,Emily Dell
 4485,7859,Ryan Fleck
 4486,302579,Valerie Red-Horse
-4486,302579,Jennifer Wynne Farmer
 4487,51955,Christopher Scott Cherot
 4488,376004,H.M. Coakley
 4489,158752,Randy Moore
@@ -4847,7 +4480,6 @@ row_number,movie_id,director_name
 4494,323967,Anna Mastro
 4495,3080,Mark Sandrich
 4496,2667,Daniel Myrick
-4496,2667,Eduardo S??nchez
 4497,9459,Michael Wadleigh
 4498,11598,John Landis
 4499,26916,Jon Gunn
@@ -4860,7 +4492,7 @@ row_number,movie_id,director_name
 4507,704,Richard Lester
 4508,70875,U. Roberto Romano
 4509,75986,Amy Holden Jones
-4510,385636,Bla?? Zavr??nik
+4510,385636,Blaž Završnik
 4511,14438,Alex Kendrick
 4512,211086,Pan Nalin
 4513,23069,Joe Camp
@@ -4892,7 +4524,6 @@ row_number,movie_id,director_name
 4539,45649,Quentin Dupieux
 4540,19844,C. Jay Cox
 4541,21801,Alex Smith
-4541,21801,Andrew J. Smith
 4542,43933,Gareth Edwards
 4543,73511,Jonathan Parker
 4544,43653,Sol Tryon
@@ -4904,7 +4535,6 @@ row_number,movie_id,director_name
 4550,294550,William Gazecki
 4551,90369,Ol Parker
 4552,117942,Michael Hoffman Jr.
-4552,117942,Aaron T. Wells
 4554,322194,Georgia Hilton
 4555,98568,Jack Heller
 4556,119657,Fernando Baez Mella
@@ -4914,7 +4544,6 @@ row_number,movie_id,director_name
 4560,379532,Joel Paul Reisig
 4561,253261,Catherine Gund
 4563,15239,Lloyd Kaufman
-4563,15239,Michael Herz
 4564,94072,Matty Rich
 4565,4107,Paul Greengrass
 4567,15624,Hans Canosa
@@ -4929,9 +4558,7 @@ row_number,movie_id,director_name
 4577,23827,Oren Peli
 4578,1282,Stacy Peralta
 4579,762,Terry Gilliam
-4579,762,Terry Jones
 4580,64499,Richard Glatzer
-4580,64499,Wash Westmoreland
 4581,281189,Sue Corcoran
 4582,1435,Jonathan Caouette
 4584,189711,Matt Jackson
@@ -4948,19 +4575,17 @@ row_number,movie_id,director_name
 4596,103620,Franck Khalfoun
 4597,319069,Mor Loushy
 4598,14278,Henry Alex Rubin
-4598,14278,Dana Adam Shapiro
 4599,25678,Sam Firstenberg
 4600,79161,Doug Block
 4601,371690,Chad Kapper
 4602,389,Sidney Lumet
 4603,52032,Paul Fierlinger
-4603,52032,Sandra Fierlinger
 4604,3078,Frank Capra
 4605,38810,Yorgos Lanthimos
 4606,21525,Lauren Lazin
 4607,55123,Gavin O'Connor
 4608,11980,Gregory Widen
-4609,11956,C??dric Klapisch
+4609,11956,Cédric Klapisch
 4610,1550,Peter Hedges
 4611,162396,Niall Johnson
 4612,26518,Kelly Reichardt
@@ -4968,7 +4593,6 @@ row_number,movie_id,director_name
 4614,68412,Eric Mendelsohn
 4615,2786,Jean-Luc Godard
 4616,87943,Kim Longinotto
-4616,87943,Florence Ayisi
 4617,73981,Pan Nalin
 4618,91721,Michael Roemer
 4619,118452,Jesse Peretz
@@ -4977,10 +4601,9 @@ row_number,movie_id,director_name
 4622,365052,John D. Hancock
 4623,13282,Paul Bartel
 4624,250184,Jason Marsden
-4624,250184,Bruce Dellis
 4625,426067,Pece Dingo
 4626,324352,Jerome Elston Scott
-4627,318040,??tienne Faure
+4627,318040,Étienne Faure
 4628,27420,Herb Freed
 4629,80468,Jack Perez
 4630,84188,Craig Zobel
@@ -4996,11 +4619,9 @@ row_number,movie_id,director_name
 4642,1424,Greg Harrison
 4643,60420,Drake Doremus
 4645,142132,Allison Anders
-4645,142132,Kurt Voss
 4646,20520,Michael Kang
 4647,109729,Paul Schrader
 4648,78307,Lori Silverbush
-4648,78307,Michael Skolnik
 4649,12247,Jeff Nichols
 4650,29917,Stuart Hazeldine
 4651,70687,Hilary Brougher
@@ -5017,10 +4638,9 @@ row_number,movie_id,director_name
 4664,18533,Nicolas Winding Refn
 4665,376010,James O'Brien
 4666,139948,Tom Putnam
-4666,139948,Brenna Sanchez
 4667,77332,Jon Matthews
 4668,70478,Al Silliman Jr.
-4669,35073,Eug??ne Louri??
+4669,35073,Eugène Lourié
 4670,9659,George Miller
 4671,10218,Doug Liman
 4672,391,Sergio Leone
@@ -5034,21 +4654,16 @@ row_number,movie_id,director_name
 4681,176074,Adam Rifkin
 4682,69270,Eric Valette
 4683,5759,Jay Duplass
-4683,5759,Mark Duplass
 4684,402515,Livingston Oden
-4684,402515,Taylor Scott Olson
 4685,126141,Chris Marker
 4686,48035,Carl Theodor Dreyer
 4687,14758,Marianna Palka
 4688,13363,Richard Schenkman
 4689,37985,Ricki Stern
-4689,37985,Anne Sundberg
 4690,25786,Nadia Tass
 4691,36549,James Kerwin
 4692,361398,Darren Press
-4692,361398,C. Fraser Press
 4693,289180,Rania Attieh
-4693,289180,Daniel Garcia
 4694,288927,Sharon Greytak
 4695,21334,Majid Majidi
 4696,79120,Andrew Haigh
@@ -5068,7 +4683,6 @@ row_number,movie_id,director_name
 4710,335244,Dena Seidel
 4711,178862,Deborah Anderson
 4712,331745,Sara Newens
-4712,331745,Mina T. Son
 4713,1779,Michael Moore
 4714,282128,Sai Varadan
 4715,86812,Zal Batmanglij
@@ -5079,7 +4693,6 @@ row_number,movie_id,director_name
 4721,266857,Nathan Smith Jones
 4722,18925,Alex Kendrick
 4723,299245,Travis Cluff
-4723,299245,Chris Lofing
 4724,985,David Lynch
 4725,34101,Robert Townsend
 4726,9821,Peter Chelsom
@@ -5088,11 +4701,10 @@ row_number,movie_id,director_name
 4729,272726,Stephen Langford
 4730,175291,E.L. Katz
 4731,80215,Lisanne Pajot
-4731,80215,James Swirsky
 4732,13538,Dan Reed
 4733,51130,John Reinhardt
 4734,270554,Patrick Ryan Sims
-4735,72086,L??szl?? Benedek
+4735,72086,László Benedek
 4736,268917,Jason Miller
 4737,64973,Sut Jhally
 4738,473,Darren Aronofsky
@@ -5101,7 +4713,6 @@ row_number,movie_id,director_name
 4741,360188,Brett Piper
 4742,9372,Morgan Spurlock
 4743,85860,Brandon Trost
-4743,85860,Jason Trost
 4744,244534,Joe Swanberg
 4745,33468,Joseph Green
 4746,294086,Wade Gasque
@@ -5143,7 +4754,6 @@ row_number,movie_id,director_name
 4782,17345,Alex Kendrick
 4783,226458,Marcus Nispel
 4784,24055,Jay Duplass
-4784,24055,Mark Duplass
 4785,287625,Jim Chuchu
 4786,44990,Daryl Wein
 4787,86304,Jason Trost
@@ -5157,11 +4767,8 @@ row_number,movie_id,director_name
 4795,124606,Ash Baron-Cohen
 4796,14337,Shane Carruth
 4797,67238,Neill Dela Llana
-4797,67238,Ian Gamazon
 4798,9367,Robert Rodriguez
 4799,72766,Edward Burns
 4800,231617,Scott Smith
 4801,126186,Daniel Hsia
 4802,25975,Brian Herzlinger
-4802,25975,Jon Gunn
-4802,25975,Brett Winn
