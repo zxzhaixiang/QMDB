@@ -28,7 +28,16 @@ class App extends Component {
     //   movies: [],
     //   searchResultClass: "d-block",
     // })
-
+    console.log('PAYLOAD', payload)
+    fetch("http://localhost:9000/get_recommendation", {
+      method: 'POST',
+      body: JSON.stringify(payload),
+      headers: {
+        'Content-type': 'application/json',
+      },
+    }).then(res => console.log('RES', res))
+    .catch(err => err);
+      
     console.log(payload)
   }
 

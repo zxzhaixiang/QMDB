@@ -1,3 +1,5 @@
+import { invokeLambda } from '../aws/lambda';
+import { updateOne, findOne, insertOne } from '../mongo/odb'
 var express = require('express');
 var router = express.Router();
 
@@ -16,5 +18,11 @@ router.get("/image/:imageId", function(req, res, next) {
   });
 });
 
+router.post("/get_recommendation", async (req, res) => {
+  console.log('REQ', req.body)
+  const payload  = req.body 
+  console.log('Payload:', JSON.stringify(payload))
+  return res.send(JSON.stringify(payload))
+})
 
 module.exports = router;
