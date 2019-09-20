@@ -6,7 +6,6 @@ import { Button, Row, Col, Card, CardDeck, Container, CardBody, CardHeader } fro
 import Header from './components/Header'
 import SearchForm from './components/SearchForm'
 import MovieCard from './components/MovieCard'
-import ReactBootstrapSlider from 'react-bootstrap-slider'
 
 class App extends Component {
   constructor(props) {
@@ -28,6 +27,7 @@ class App extends Component {
     //   movies: [],
     //   searchResultClass: "d-block",
     // })
+
     console.log('PAYLOAD', payload)
     fetch("http://localhost:9000/get_recommendation", {
       method: 'POST',
@@ -37,12 +37,10 @@ class App extends Component {
       },
     }).then(res => console.log('RES', res))
     .catch(err => err);
-      
-    console.log(payload)
   }
 
   callAPI = () => {
-    fetch("http://localhost:9000/testAPI")
+    fetch("http://localhost:9000/get_recommendation")
       .then(res => res.text())
       .then(res => this.setState({ date: res }))
       .catch(err => err);
@@ -111,6 +109,9 @@ class App extends Component {
                       description={movie.description}
                       link={movie.link}
                       isfavorite={movie.isfavorite}
+                      movieId={movie.id} //!!!! id
+                      changeFavoriteHandler={this.changeFavoriteHandler}
+                      getSimilarMovieHandler={this.getSimilarMovieHandler}
                     />
                 )}
               </CardDeck>
@@ -131,6 +132,9 @@ class App extends Component {
                       description={movie.description}
                       link={movie.link}
                       isfavorite={movie.isfavorite}
+                      movieId={movie.id} //!!!! id
+                      changeFavoriteHandler={this.changeFavoriteHandler}
+                      getSimilarMovieHandler={(x) => console.log('nothing to be done')}
                     />
                 )}
               </CardDeck>

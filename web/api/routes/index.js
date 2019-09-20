@@ -27,7 +27,7 @@ router.post("/get_recommendation", async (req, res) => {
   const project = { _id: 0, title: 1}
   const data = await odb.findOne('movies', filter, project)
   console.log('DATA', data)
-  return res.send(JSON.stringify(data))
+  return res.send(JSON.stringify(payload))
 })
 
 router.post("/add_to_favorite", async (req, res) => {

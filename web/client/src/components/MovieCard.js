@@ -27,11 +27,11 @@ export default class MovieCard extends Component {
     favoriteButtonClickHandler = () => {
         const isfavorite = !this.state.isfavorite
         this.changeState(isfavorite)
-        this.props.changeFavoriteHandler(isfavorite, this.props.movie_id)
+        this.props.changeFavoriteHandler(isfavorite, this.props.movieId)
     }
 
     getSimilarMoviesHandler = () => {
-        this.props.getSimilarMovieHandler(this.props.movie_id)
+        this.props.getSimilarMovieHandler(this.props.movieId)
     }
 
     componentWillMount() {

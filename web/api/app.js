@@ -14,6 +14,13 @@ var testAPIRouter = require("./routes/testAPI");
 
 var app = express();
 
+const { MODE_PRODUCTION, connectToMongoPromise, setState } = require('./mongo/index')
+const mongoConnection = connectToMongoPromise(MODE_PRODUCTION).catch(err => console.log('error connecting to mongo', err))
+mongoConnection.then((c) => {
+  app.emit('app_started')
+  setState(c, MODE_PRODUCTION)
+}).catch(err => console.log('wwops', err))
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');

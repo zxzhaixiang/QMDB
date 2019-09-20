@@ -57,5 +57,7 @@ const getDb = () => state.db
 
 module.exports = {
   getDb: getDb,
-
+  MODE_PRODUCTION:MODE_PRODUCTION,
+  connectToMongoPromise:connectToMongoPromise,
+  setState:setState
 }
