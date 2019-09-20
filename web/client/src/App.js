@@ -39,22 +39,32 @@ class App extends Component {
     .catch(err => err);
   }
 
-  callAPI = () => {
-    fetch("http://localhost:9000/get_recommendation")
-      .then(res => res.text())
-      .then(res => this.setState({ date: res }))
-      .catch(err => err);
+  changeFavoriteAPI = (isfavorite, movieId) => {
+
+  }
+  
+  getSimilarMovieAPI = (movieId) =>{
+
+  }
+
+  getDistinctAPI = () => {
+    fetch("http://localhost:9000/get_meta")
+    .then(res => res.json())
+    .then(data => {
+      const dct = {genres: data.genreData, 
+        countries: data.countryData.filter((el) => el.length>1).slice(0,20), languages: data.languageData.slice(0,20)}
+      this.setState(dct)
+    })
+    .catch(err => err);  
   }
 
   componentWillMount() {
 
-    const genres = ["asdfasdf", "cool", "boring", "awful"]
-    const countries = ["murica", "china", "straya", "newZealand"]
-    const languages =  ["howdytalk", "mandorin", "apple", "spanish"]
-
-    this.setState({genres: genres,
-      countries: countries,
-      languages: languages});
+    this.getDistinctAPI()
+    
+    this.setState({genres: [],
+      countries: [],
+      languages: []});
 
     const movies = Array(20).fill({
       picUrl: "https://aws.test",
@@ -75,8 +85,6 @@ class App extends Component {
     })
     this.setState({similarMovies: similarMovies,
             similarMovieClass: "d-block"});
-
-    // this.callAPI();
   }
 
   render() {
@@ -110,8 +118,8 @@ class App extends Component {
                       link={movie.link}
                       isfavorite={movie.isfavorite}
                       movieId={movie.id} //!!!! id
-                      changeFavoriteHandler={this.changeFavoriteHandler}
-                      getSimilarMovieHandler={this.getSimilarMovieHandler}
+                      changeFavoriteHandler={this.changeFavoriteAPI}
+                      getSimilarMovieHandler={this.getSimilarMovieAPI}
                     />
                 )}
               </CardDeck>
@@ -141,13 +149,6 @@ class App extends Component {
             </CardBody>
           </Card>
         </Container>
-
-        {/* <div>
-          <Button outline color="primary" onClick={this.callAPI}>Update date</Button>
-          <div>
-          </div>
-        </div>
-        <p className="App-intro">{this.state.date}</p> */}
       </div>
     )
   }

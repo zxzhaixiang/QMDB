@@ -162,7 +162,7 @@ export default class SearchForm extends Component {
           <FormGroup check>
             <Row>
               <Col className="align-content-left">
-                <Label check for="genres">Genres:</Label>
+                <Label check for="genres"><h5>Genres:</h5></Label>
                 <br></br>
                 {this.props.genres.map(genre =>
                   <div>
@@ -178,7 +178,7 @@ export default class SearchForm extends Component {
               </Col>
 
               <Col className="align-content-left">
-                <Label check for="countries">Countries:</Label>
+                <Label check for="countries"><h5>Countries:</h5></Label>
                 <br></br>
                 {this.props.countries.map(country =>
                   <div>
@@ -194,7 +194,7 @@ export default class SearchForm extends Component {
               </Col>
 
               <Col className="align-content-left">
-                <Label check for="languages">Languages:</Label>
+                <Label check for="languages"><h5>Languages:</h5></Label>
                 <br></br>
                 {this.props.languages.map(language =>
                   <div>
@@ -210,7 +210,7 @@ export default class SearchForm extends Component {
               </Col>
             </Row>
           </FormGroup>
-
+          <br></br>
           <Button color="primary" onClick={this.submitForm}>Search</Button>
         </Form>
       </div>

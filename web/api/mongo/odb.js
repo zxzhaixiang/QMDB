@@ -34,7 +34,7 @@ const deleteOne = (collection, filter) => {
   return db.collection(collection).deleteOne(filter)
 }
 
-const distinct = (field, query, options = {}) => {
+const distinct = (collection, field={}, query={}, options = {}) => {
   const db = getDb()
   return db.collection(collection).distinct(field, query, options)
 }
