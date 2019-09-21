@@ -26,7 +26,8 @@ router.post("/get_recommendation", async (req, res) => {
   lambdaName = ""
   if (lambdaName.length > 1){
     const out = await invokeLambda(lambdaName, payload)
-    return res.send(JSON.stringify({movies: out}))
+    const outArr = JSON.parse(out.Payload)
+    return res.send(JSON.stringify({movies: outArr}))
   }
   else{
     // these code should invoke lambda to get recommendations
@@ -66,7 +67,8 @@ router.post("/get_similar_movies",  async (req, res) => {
   lambdaName = ""
   if (lambdaName.length > 1){
     const out = await invokeLambda(lambdaName, payload)
-    return res.send(JSON.stringify({movies: out}))
+    const outArr = JSON.parse(out.Payload)
+    return res.send(JSON.stringify({movies: outArr}))
   }
   else{
     console.log('no lambda for get similar movies')

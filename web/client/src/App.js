@@ -66,12 +66,11 @@ class App extends Component {
         const movies = data.movies
         console.log(data)
         this.setState({
-          movies: movies,
-          searchResultClass: "d-block",
+          similarMovies: movies,
+          similarMovieClass: "d-block",
         })
       })
       .catch(err => err);
-
   }
 
   getDistinctAPI = () => {
