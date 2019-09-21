@@ -1,6 +1,7 @@
 //import { invokeLambda } from '../aws/lambda';
 const {ObjectId} = require('mongodb')
 const odb = require('../mongo/odb')
+const {invokeLambda} = require('../aws/lambda')
 
 var express = require('express');
 var router = express.Router();
@@ -21,13 +22,20 @@ router.get("/image/:imageId", function(req, res, next) {
 });
 
 router.post("/get_recommendation", async (req, res) => {
-  console.log('REQ', req.body)
   const payload  = req.body 
-  const filter = { _id: ObjectId("5d852db841fbe6ff6efe46d1") }
-  const project = { _id: 0, title: 1}
-  const data = await odb.findOne('movies', filter, project)
-  console.log('DATA', data)
-  return res.send(JSON.stringify(payload))
+  lambdaName = ""
+  if (lambdaName.length > 1){
+    const out = await invokeLambda(lambdaName, payload)
+    return res.send(JSON.stringify({movies: out}))
+  }
+  else{
+    // these code should invoke lambda to get recommendations
+    const filter = { _id: ObjectId("5d8554b9a44b74f50644cdae") }
+    const project = { _id: 0}
+    const data = await odb.findOne('movies', filter, project)
+    console.log('DATA', data)
+    return res.send(JSON.stringify({movies: [data, data, data]}))
+  }
 })
 
 router.get("/get_meta", async (req, res) => {
@@ -41,13 +49,30 @@ router.get("/get_meta", async (req, res) => {
 })
 
 router.post("/add_to_favorite", async (req, res) => {
-  //user, movie title INPUT
-  //update to mongo db
-  //call lambda to update model
-
+  const payload  = req.body 
+  // these code should invoke lambda to add to favorite
+  lambdaName = ""
+  if (lambdaName.length > 1){
+    await invokeLambda(lambdaName, payload)
+    return res.send("Success")
+  }
+  else{
+    return res.send("Failure")
+  }
 })
-//user, movie title
 
+router.post("/get_similar_movies",  async (req, res) => {
+  const payload  = req.body 
+  lambdaName = ""
+  if (lambdaName.length > 1){
+    const out = await invokeLambda(lambdaName, payload)
+    return res.send(JSON.stringify({movies: out}))
+  }
+  else{
+    console.log('no lambda for get similar movies')
+    return res.send("Failure")
+  }
+})
 
 //get meta info
 module.exports = router;

@@ -1,4 +1,4 @@
-import AWS from 'aws-sdk'
+AWS = require('aws-sdk')
 
 const { AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_REGION } = process.env
 
@@ -14,4 +14,6 @@ AWS.config.SQS = {
   region: AWS_REGION,
 }
 
-export default AWS
+module.exports = {
+  AWS: AWS,
+}

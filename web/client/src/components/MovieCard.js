@@ -39,23 +39,33 @@ export default class MovieCard extends Component {
     }
 
     render() {
-        const picUrl = this.props.picUrl
-        const ttl = this.props.ttl
-        const subttl = this.props.subttl
-        const description = this.props.description
-        const link = this.props.link
+        const picUrl = this.props.url
+        const ttl = this.props.title
+        const description = this.props.overview
+        const s = this.props.imdbId.toString()
+        const link = "https://www.imdb.com/title/tt" + "0" * (7 - s.length) + s
+        const imgStyle = {
+            width: "100%",
+            height: "auto"
+        }
+        const cardStyle = {
+            maxWidth: "300px"
+        }
+        const cardTextStyle = {
+            wordWrap: "break-word",
+            width: "100%",
+        }
+
         return (
-            <div>
-                <Card>
-                    <CardHeader onClick={this.getSimilarMoviesHandler}><a href={link}>{ttl}</a></CardHeader>
-                    <CardImg top width="100%" src={picUrl} alt={picUrl} />
-                    <CardBody>
-                        <CardSubtitle>{subttl}</CardSubtitle>
-                        <CardText>{description}</CardText>
-                        <Button color={this.state.colorStyle} onClick={this.favoriteButtonClickHandler}>{this.state.text}</Button>
-                    </CardBody>
-                </Card>
-            </div>
+            <Card style={cardStyle}>
+                <CardHeader onClick={this.getSimilarMoviesHandler}><h5>{ttl}</h5></CardHeader>
+                <CardImg style={imgStyle} src={picUrl} alt={picUrl} />
+                <CardBody>
+                    <CardText style={cardTextStyle}><a href={link}>{description}</a></CardText>
+                    <Button color={this.state.colorStyle} onClick={this.favoriteButtonClickHandler}>{this.state.text}</Button>
+                </CardBody>
+            </Card>
+
         );
     }
 }

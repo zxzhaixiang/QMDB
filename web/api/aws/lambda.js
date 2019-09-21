@@ -1,10 +1,10 @@
-import AWS from './setup'
+const {AWS} = require('./setup')
 
 const lambda = new AWS.Lambda()
 
-export const invokeLambda  = (lambdaName, payload) => new Promise((resolve, reject) => {
+const invokeLambda  = (lambdaName, payload) => new Promise((resolve, reject) => {
   //console.log('payload:', payload)
-  const params ={
+  const params = {
     FunctionName: lambdaName,
     Payload: JSON.stringify(payload),
   }
@@ -20,5 +20,10 @@ export const invokeLambda  = (lambdaName, payload) => new Promise((resolve, reje
     }
   })
 })
+
+
+module.exports = {
+  invokeLambda: invokeLambda,
+}
 
   
