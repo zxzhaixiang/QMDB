@@ -6,9 +6,8 @@ const {invokeLambda} = require('../aws/lambda')
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Hackthon' });
 });
 
 router.get("/image/:imageId", function(req, res, next) {
@@ -23,7 +22,7 @@ router.get("/image/:imageId", function(req, res, next) {
 
 router.post("/get_recommendation", async (req, res) => {
   const payload  = req.body 
-  lambdaName = ""
+  lambdaName = "hackathon_get_recommendations"
   if (lambdaName.length > 1){
     const out = await invokeLambda(lambdaName, payload)
     const outArr = JSON.parse(out.Payload)
@@ -34,6 +33,8 @@ router.post("/get_recommendation", async (req, res) => {
     const filter = { _id: ObjectId("5d8554b9a44b74f50644cdae") }
     const project = { _id: 0}
     const data = await odb.findOne('movies', filter, project)
+    data.userId = 'washington.irving@gmail.com'
+    data.isfavorite = false
     console.log('DATA', data)
     return res.send(JSON.stringify({movies: [data, data, data]}))
   }
@@ -41,18 +42,14 @@ router.post("/get_recommendation", async (req, res) => {
 
 router.get("/get_meta", async (req, res) => {
   const genreData = await odb.distinct('movies', 'genres')
-  console.log('GENRES:', genreData)
   const countryData = await odb.distinct('movies', 'country')
-  console.log('COUNTRIES:', countryData)
   const languageData = await odb.distinct('movies', 'language')
-  console.log('LANGUAGE:', languageData)
   return res.send(JSON.stringify({ genreData:genreData, countryData: countryData, languageData: languageData }))
 })
 
 router.post("/add_to_favorite", async (req, res) => {
   const payload  = req.body 
-  // these code should invoke lambda to add to favorite
-  lambdaName = ""
+  lambdaName = "hackthon_test"
   if (lambdaName.length > 1){
     await invokeLambda(lambdaName, payload)
     return res.send("Success")
@@ -64,15 +61,19 @@ router.post("/add_to_favorite", async (req, res) => {
 
 router.post("/get_similar_movies",  async (req, res) => {
   const payload  = req.body 
-  lambdaName = ""
+  lambdaName = "hackathon_get_similar_movies"
   if (lambdaName.length > 1){
     const out = await invokeLambda(lambdaName, payload)
     const outArr = JSON.parse(out.Payload)
     return res.send(JSON.stringify({movies: outArr}))
   }
   else{
-    console.log('no lambda for get similar movies')
-    return res.send("Failure")
+    const filter = { _id: ObjectId("5d8554baa44b74f50644cdb9") }
+    const project = { _id: 0}
+    const data = await odb.findOne('movies', filter, project)
+    data.userId = 'washington.irving@gmail.com'
+    data.isfavorite = true
+    return res.send(JSON.stringify({movies: [data, data, data]}))
   }
 })
 

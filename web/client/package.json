@@ -10,6 +10,7 @@
     "react-bootstrap-slider": "^2.2.2",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
+    "reactrangeslider": "^3.0.6",
     "reactstrap": "^8.0.1"
   },
   "scripts": {

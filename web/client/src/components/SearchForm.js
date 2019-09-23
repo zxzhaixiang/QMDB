@@ -24,20 +24,20 @@ export default class SearchForm extends Component {
   }
 
 
-  maxYearChangeHandler = event =>{
-    this.setState({maxYear: event.target.value})
+  maxYearChangeHandler = event => {
+    this.setState({ maxYear: event.target.value })
   }
 
-  minYearChangeHandler = event =>{
-    this.setState({minYear: event.target.value})
+  minYearChangeHandler = event => {
+    this.setState({ minYear: event.target.value })
   }
 
-  keywordsChangeHandler = event =>{
-    this.setState({keywords: event.target.value})
+  keywordsChangeHandler = event => {
+    this.setState({ keywords: event.target.value })
   }
 
-  emailChangeHandler = event =>{
-    this.setState({email: event.target.value})
+  emailChangeHandler = event => {
+    this.setState({ email: event.target.value })
   }
 
   genreChangeHandler = event => {
@@ -81,7 +81,7 @@ export default class SearchForm extends Component {
     console.log("Selected Genres:", languageSel);
   };
 
-  submitForm = ()=>{
+  submitForm = () => {
     const payload = this.state
     this.props.submitFormAPI(payload)
   }
@@ -161,51 +161,51 @@ export default class SearchForm extends Component {
 
           <FormGroup check>
             <Row>
-              <Col className="align-content-left">
-                <Label check for="genres"><h5>Genres:</h5></Label>
-                <br></br>
+              <Col>
+                <h5 className="text-left">Genres:</h5>
                 {this.props.genres.map(genre =>
-                  <div>
+                  <div className="text-left">
                     <Input
-                    type="checkbox"
-                    name={genre}
-                    onChange={this.genreChangeHandler.bind(this)}
-                    value={genre}
-                  />  {"" + genre}
+                      type="checkbox"
+                      key={genre}
+                      name={genre}
+                      onChange={this.genreChangeHandler.bind(this)}
+                      value={genre}
+                    />{"" + genre}
                   </div>
-                  )
+                )
                 }
               </Col>
 
-              <Col className="align-content-left">
-                <Label check for="countries"><h5>Countries:</h5></Label>
-                <br></br>
+              <Col>
+                <h5 className="text-left">Countries:</h5>
                 {this.props.countries.map(country =>
-                  <div>
+                  <div className="text-left">
                     <Input
-                    type="checkbox"
-                    name={country}
-                    onChange={this.countryChangeHandler.bind(this)}
-                    value={country}
-                  />  {"" + country}
+                      type="checkbox"
+                      key={country}
+                      name={country}
+                      onChange={this.countryChangeHandler.bind(this)}
+                      value={country}
+                    />  {"" + country}
                   </div>
-                  )
+                )
                 }
               </Col>
 
-              <Col className="align-content-left">
-                <Label check for="languages"><h5>Languages:</h5></Label>
-                <br></br>
+              <Col>
+                <h5 className="text-left">Languages:</h5>
                 {this.props.languages.map(language =>
-                  <div>
+                  <div className="text-left">
                     <Input
-                    type="checkbox"
-                    name={language}
-                    onChange={this.languageChangeHandler.bind(this)}
-                    value={language}
-                  />  {"" + language}
+                      type="checkbox"
+                      key={language}
+                      name={language}
+                      onChange={this.languageChangeHandler.bind(this)}
+                      value={language}
+                    />  {"" + language}
                   </div>
-                  )
+                )
                 }
               </Col>
             </Row>

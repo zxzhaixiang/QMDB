@@ -29,18 +29,18 @@ class App extends Component {
     }).then(res => res.json())
       .then(data => {
         const movies = data.movies
-        console.log(data)
         this.setState({
           movies: movies,
           searchResultClass: "d-block",
+          similarMovies: [],
+          similarMovieClass: "d-none",
         })
       })
       .catch(err => err);
-
   }
 
-  changeFavoriteAPI = (isfavorite, movieId) => {
-    const payload = {movieId: movieId}
+  changeFavoriteAPI = (isfavorite, movieId, userId) => {
+    const payload = {isfavorite:isfavorite, movieId: movieId, userId: userId}
     console.log('PAYLOAD', payload)
     fetch("http://localhost:9000/add_to_favorite", {
       method: 'POST',
@@ -48,13 +48,13 @@ class App extends Component {
       headers: {
         'Content-type': 'application/json',
       },
-    }).then(res => console.log(res.text()))
+    }).then(res => console.log(res))
       .catch(err => err);
   }
 
-  getSimilarMovieAPI = (movieId) => {
-    const payload = {movieId: movieId}
-    console.log('PAYLOAD', payload)
+  getSimilarMovieAPI = (movieId, userId) => {
+    const payload = {movieId: movieId, userId: userId}
+    console.log('PAYLOAD_BEFORE_PASS', payload)
     fetch("http://localhost:9000/get_similar_movies", {
       method: 'POST',
       body: JSON.stringify(payload),
@@ -64,7 +64,6 @@ class App extends Component {
     }).then(res => res.json())
       .then(data => {
         const movies = data.movies
-        console.log(data)
         this.setState({
           similarMovies: movies,
           similarMovieClass: "d-block",
@@ -78,8 +77,9 @@ class App extends Component {
       .then(res => res.json())
       .then(data => {
         const dct = {
-          genres: data.genreData,
-          countries: data.countryData.filter((el) => el.length > 1).slice(0, 20), languages: data.languageData.slice(0, 20)
+          genres: ['tv', 'documentary', 'drama', 'comedy', 'mystery', 'history', 'fantasy', 'western', 'war', 'science', 'foreign', 'animation', 'music', 'adventure', 'crime', 'action', 'romance', 'fiction', 'horror', 'family', 'thriller', 'movie'],
+          countries: data.countryData.filter((el) => el.length > 1).slice(0, 20), 
+          languages: data.languageData.slice(0, 20)
         }
         this.setState(dct)
       })
@@ -96,29 +96,6 @@ class App extends Component {
       languages: []
     });
 
-    // const movies = Array(20).fill({
-    //   picUrl: "https://aws.test",
-    //   ttl: "Movie title",
-    //   subttl: "Movie subtitle",
-    //   description: "Movie description",
-    //   link: "link",
-    // })
-    // this.setState({
-    //   movies: movies,
-    //   searchResultClass: "d-block"
-    // });
-
-    // const similarMovies = Array(10).fill({
-    //   picUrl: "https://aws.test",
-    //   ttl: "Movie title",
-    //   subttl: "Movie subtitle",
-    //   description: "Movie description",
-    //   imdb: "link",
-    // })
-    // this.setState({
-    //   similarMovies: similarMovies,
-    //   similarMovieClass: "d-block"
-    // });
   }
 
   render() {
@@ -142,20 +119,24 @@ class App extends Component {
           <Card>
             <CardHeader><h2>Search Results</h2></CardHeader>
             <CardBody>
-              <CardDeck>
+              <Row>
                 {this.state.movies.map(movie =>
-                  <MovieCard
+                <Col sm="12" md="6" lg="4" xl="3">
+                   <MovieCard
+                    key={movie.movieId}
                     url={movie.url}
                     title={movie.title}
                     overview={movie.overview}
                     imdbId={movie.imdbId}
-                    isfavorite={false}
+                    userId={movie.userId}
+                    isfavorite={movie.isfavorite}
                     movieId={movie.movieId} //!!!! id
                     changeFavoriteHandler={this.changeFavoriteAPI}
                     getSimilarMovieHandler={this.getSimilarMovieAPI}
                   />
+                </Col>
                 )}
-              </CardDeck>
+              </Row>
             </CardBody>
           </Card>
         </Container>
@@ -164,20 +145,22 @@ class App extends Component {
           <Card>
             <CardHeader><h2>Similar Movies</h2></CardHeader>
             <CardBody>
-              <CardDeck>
-                {this.state.similarMovies.map(movie =>
-                  <MovieCard
-                    url={movie.url}
-                    title={movie.title}
-                    overview={movie.overview}
-                    imdbId={movie.imdbId}
-                    isfavorite={false}
-                    movieId={movie.movieId} //!!!! id
-                    changeFavoriteHandler={this.changeFavoriteAPI}
-                    getSimilarMovieHandler={(x) => console.log('nothing to be done')}
-                  />
-                )}
-              </CardDeck>
+              <Row>
+                  {this.state.similarMovies.map(movie =>
+                  <Col sm="12" md="6" lg="4" xl="3">
+                    <MovieCard
+                      key={movie.movieId}
+                      url={movie.url}
+                      title={movie.title}
+                      overview={movie.overview}
+                      imdbId={movie.imdbId}
+                      userId={movie.userId}
+                      isfavorite={movie.isfavorite}
+                      movieId={movie.movieId} //!!!! id
+                    />
+                  </Col>
+                  )}
+                </Row>
             </CardBody>
           </Card>
         </Container>

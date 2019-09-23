@@ -25,13 +25,19 @@ export default class MovieCard extends Component {
     }
 
     favoriteButtonClickHandler = () => {
-        const isfavorite = !this.state.isfavorite
-        this.changeState(isfavorite)
-        this.props.changeFavoriteHandler(isfavorite, this.props.movieId)
+        if (this.props.changeFavoriteHandler !== undefined){
+            console.log(this.props.changeFavoriteHandler)
+            const isfavorite = !this.state.isfavorite
+            this.changeState(isfavorite)
+            this.props.changeFavoriteHandler(isfavorite, this.props.movieId, this.props.userId)
+        }
     }
 
     getSimilarMoviesHandler = () => {
-        this.props.getSimilarMovieHandler(this.props.movieId)
+        if (this.props.getSimilarMovieHandler !== undefined){
+            console.log(this.props.getSimilarMovieHandler)
+            this.props.getSimilarMovieHandler(this.props.movieId, this.props.userId)
+        }
     }
 
     componentWillMount() {
@@ -56,12 +62,14 @@ export default class MovieCard extends Component {
             width: "100%",
         }
 
+        console.log(ttl + ": " + this.state.isfavorite + ", " + this.state.colorStyle)
+
         return (
-            <Card style={cardStyle}>
+            <Card>
                 <CardHeader onClick={this.getSimilarMoviesHandler}><h5>{ttl}</h5></CardHeader>
                 <CardImg style={imgStyle} src={picUrl} alt={picUrl} />
                 <CardBody>
-                    <CardText style={cardTextStyle}><a href={link}>{description}</a></CardText>
+                    <CardText style={cardTextStyle}><a href={link} target="_blank">{description}</a></CardText>
                     <Button color={this.state.colorStyle} onClick={this.favoriteButtonClickHandler}>{this.state.text}</Button>
                 </CardBody>
             </Card>
