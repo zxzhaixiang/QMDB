@@ -1,5 +1,11 @@
 # QMDB
-Quantum Movie Database. An interactive movie recommendation/search platform that provides unbiased, accurate results
+Quantum Movie Database is created by aggregating MovieLens dataset and TMDB 5000 dataset to enrich the content of movies. More specifically, we 
+- select a relatively dense subset of MovieLens 27M dataset, both on movies and users
+- tokenize some of the movie meta data from the TMDB dataset, including casts, directors, key descriptions
+- merge the two data sources into one integrated dataset
+The dataset can be found here
+./processed_data/ratings_with_kws.csv  (contain a curated version of user/movie ratings from the full MovieLens 27M dataset. The data density is much higher than the origianl sparse dataset)
+./processed_data/movies_with_kws.csv (content for movies)
 
 ## Movie Lens Dataset
 The latest Movie Lens Dataset was releasted in 09/2018 and can be donwloaded here
